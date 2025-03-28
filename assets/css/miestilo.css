@@ -11,6 +11,63 @@ body {
   color: white;
   background-color: rgb(0, 0, 0); 
 } 
+
+/*BARRA DE NAVEGACION*/
+.container-fluid, 
+.container-fluid, 
+.navbar {
+  background-color: rgb(122, 201, 126);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand, 
+.navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.bg-body-tertiary {
+  transition: background-color 1s ease-in-out;
+}
+
+.navbar.bg-body-tertiary:hover {
+  background-color: rgb(122, 201, 126) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(215, 215, 215) !important;
+  transform: scale(1.02);
+  border: none;
+}
+
+.dropdown-menu {
+  background-color: rgb(122, 201, 126);
+  border: none;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgb(122, 201, 126);
+  color: rgb(215, 215, 215);
+}
+
+/*CARRUSEL*/
+.carousel-item img {
+  max-height: 765px; 
+  object-fit: cover; 
+  width: 100%;
+}
+
+.carousel-caption h3 {
+  color:  rgb(215, 215, 215);
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/*ESTILOS DE CONTENIDO*/
 .parrafo{    
   background-color: #4A90E2;  
   color: rgb(0, 0, 0);
@@ -20,28 +77,10 @@ body {
   font-style: italic; 
   font-weight: bold;
 }  
+
+/*FOOTER*/
 footer{ 
   background-color: rgb(74, 120, 147);  
   padding: 10px 20px 30px 40px;    
   text-align: center;
-}
-
-.container-fluid {
-  background-color: rgb(4, 92, 8);
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-brand {
-  color: black;
-  font-weight: bold;
-}
-
-.navbar-nav .nav-link {
-  color: black;
 }
