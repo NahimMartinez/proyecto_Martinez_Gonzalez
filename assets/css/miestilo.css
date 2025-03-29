@@ -95,11 +95,22 @@ footer {
 
 .social-icons a {
   font-size: 24px;
-  color: rgb(34, 66, 22);
 }
 
 .social-icons a:hover {
   transform: scale(1.2); 
+}
+
+.social-icons .fa-facebook {
+  color: #1877f2;  /* Color oficial de Facebook */
+}
+
+.social-icons .fa-instagram {
+  color: #e440c9;  /* Color oficial de Instagram */
+}
+
+.social-icons .fa-whatsapp {
+  color: #25D366;  /* Color oficial de WhatsApp */
 }
 
 /*SOBRE NOSOTROS*/
@@ -110,4 +121,35 @@ footer {
   border-radius: 10px;
   min-height: calc(100vh - 270px); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.sobre-nosotros h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
+}
+
+.sobre-nosotros h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
+}
+
+.sobre-nosotros h5 {
+  text-align: justify;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
+}
+
+.sobre-nosotros .contacto p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sobre-nosotros p {
+  text-align: justify;
+  font-size: 18px;
 }
