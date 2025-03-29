@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('principal.html');
     }
+    public function sobreNosotros(): string
+    {
+        return view('sobreNosotros.html');
+    }
+    
 }
