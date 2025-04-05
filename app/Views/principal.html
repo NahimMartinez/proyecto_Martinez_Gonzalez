@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Documento</title>
+    <title>Yaguareté Camp</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/miestilo.css" rel="stylesheet">
     <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
@@ -21,7 +22,7 @@
           <a class="navbar-brand" href="/proyectoTaller_l/">Yaguareté Camp</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
@@ -143,21 +144,59 @@
       </div>
     </div>
 
-      <footer>
-        <div class="social-icons">
-            <a href="https://facebook.com/yaguaretecamp" target="_blank">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://instagram.com/yaguaretecamp" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://wa.me/543794xxxxxx" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-        </div>
-        <p>Copyright @ 2025 - Todos los derechos reservados.</p>
+    <footer>
+      <div class="social-icons">
+        <a href="https://facebook.com/yaguaretecamp" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/yaguaretecamp" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/543794xxxxxx" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div class="formulario">
+        <!-- Botón para abrir el modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+          Contacto
+        </button>
+      </div>
+      <p>Copyright @ 2025 - Todos los derechos reservados.</p>
     </footer>
-
+    
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Formulario de Contacto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="/proyectoTaller_l/contacto" method="POST">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico" required>
+              </div>
+              <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

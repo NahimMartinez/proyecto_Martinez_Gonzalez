@@ -175,3 +175,17 @@ footer {
   max-height: 150px; /* Limita la altura del texto */
   overflow-y: auto; /* Agrega scroll si el texto es muy largo */
 }
+
+
+/*MODAL*/
+.modal {
+  color: rgb(0, 0, 0);
+  box-shadow: black 0px 0px 10px;
+  text-align: center;
+}
+
+.modal-body {
+  background-color: rgb(215, 215, 215);
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
