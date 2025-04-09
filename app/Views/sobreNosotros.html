@@ -10,83 +10,157 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid">
-              <div class="logo">
-                <a href="/proyectoTaller_l/">
-                  <img src="assets/img/logo.png" alt="Logo" width="50" height="50">
+                <a class="navbar-brand" href="principal.html">
+                    <img src="assets/img/logo.png" alt="Logo" width="60" height="60">
+                    Yaguareté Camp
                 </a>
-              </div>
-              <a class="navbar-brand" href="/proyectoTaller_l/">Yaguareté Camp</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categorías
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Camping</a></li>
-                      <li><a class="dropdown-item" href="#">Indumentaria</a></li>
-                      <li><a class="dropdown-item" href="#">Pesca</a></li>
+                <span class="promo-envio"><i class="fas fa-shipping-fast"></i> ¡Envíos gratis en compras mayores a $70.000!</span>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Pesca</a></li>
+                                <li><a class="dropdown-item" href="#">Camping</a></li>
+                                <li><a class="dropdown-item" href="#">Indumentaria</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="principal.html"><i class="fas fa-home"></i> Inicio</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://www.google.com.ar/maps/place/Centenario+Shopping/@-27.4744679,-58.7994039,15z/data=!4m6!3m5!1s0x94456b6ca10e6e2b:0xa03f567172e58c10!8m2!3d-27.4715475!4d-58.8064566!16s%2Fg%2F11d_8tpq54?hl=es&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">Ubicación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/proyectoTaller_l/sobre-nosotros">Sobre nosotros!</a>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <main class="container mt-4">
-        
-        <div class="sobre-nosotros">
-            
-                <h2>Bienvenidos a Yaguareté Camp</h2>
-                
-                <p>Somos tu destino confiable para equipamiento de camping, pesca y aventura al aire libre en Corrientes.
-                  En Yaguareté Camp nos apasiona el aire libre y entendemos las necesidades de los verdaderos aventureros. 
-                  Nos especializamos en ofrecer productos de alta calidad para pesca, camping e indumentaria técnica, cuidadosamente seleccionados para garantizar la mejor experiencia en tus actividades al aire libre.
-                </p>
-
-                <h3>Por qué elegirnos</h3>
-                
-                 <h5><i class="fa-solid fa-fish-fins"></i> Expertos en Pesca</h5>
-                <p>Equipamiento completo y asesoramiento profesional para pescadores de todos los niveles.</p>      
-                    
-                <h5><i class="fa-solid fa-campground"></i> Especialistas en Camping</h5>
-                <p>Las mejores marcas y equipos para hacer de tu experiencia al aire libre algo inolvidable.</p>        
-                
-    
-                <div class="contacto">
-                  <br>
-                  <br>
-                    <p>¡Visitanos en nuestra tienda física!</p>
-                    <p>Encontranos en el Centenario Shopping, Corrientes</p>
+    <main class="container my-5">
+        <!-- Sección Historia -->
+        <section class="mb-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4 text-verde-selva">
+                        <i class="fas fa-seedling me-3"></i>Nuestra Historia
+                    </h2>
+                    <p class="lead">Nacidos entre los esteros y selvas de Corrientes en 2012</p>
+                    <p>Fundada por los hermanos Guaraní, descendientes de pescadores del Río Paraná, Yaguareté Camp nace de la pasión por preservar las tradiciones de pesca sustentable y el ecoturismo responsable. Nuestro nombre rinde homenaje al majestuoso yaguareté, símbolo de la fauna correntina.</p>
+                    <div class="bg-azul-profundo text-white p-4 rounded">
+                        <h4><i class="fas fa-water me-2"></i>Raíces Esterinas</h4>
+                        <p>Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad.</p>
+                    </div>
                 </div>
-        </div>
+                <div class="col-md-6">
+                    <img src="assets/img/historia.jpg" class="img-fluid rounded-3 shadow" alt="Historia">
+                </div>
+            </div>
+        </section>
+
+        <!-- Misión, Visión, Valores -->
+        <section class="bg-light py-5 mb-5">
+            <div class="container">
+                <h3 class="text-center mb-5 text-marron-tierra">
+                    <i class="fas fa-bullseye me-2"></i>Nuestros Pilares
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-verde-selva">
+                            <div class="card-body">
+                                <h4 class="text-azul-profundo"><i class="fas fa-crosshairs me-2"></i>Misión</h4>
+                                <p>Facilitar experiencias outdoor seguras y memorables mediante equipamiento técnico de calidad, manteniendo nuestro compromiso con el medio ambiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-verde-selva">
+                            <div class="card-body">
+                                <h4 class="text-azul-profundo"><i class="fas fa-binoculars me-2"></i>Visión</h4>
+                                <p>Ser referentes en equipamiento outdoor sustentable para 2025, expandiendo nuestra red de talleres de reparación y educación ambiental.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-verde-selva">
+                            <div class="card-body">
+                                <h4 class="text-azul-profundo"><i class="fas fa-hand-holding-heart me-2"></i>Valores</h4>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Sustentabilidad</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Comunidad</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Innovación</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipo -->
+        <section class="mb-5">
+            <h3 class="text-center mb-5 text-verde-selva">
+                <i class="fas fa-users me-2"></i>Nuestro Equipo
+            </h3>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-3 text-center">
+                    <div class="team-card">
+                        <img src="assets/img/fundador1.jpg" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <h5>Luciano Guaraní</h5>
+                        <p class="text-muted">CEO & Co-Fundador</p>
+                        <p class="small">Especialista en pesca con mosca</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="team-card">
+                        <img src="assets/img/fundador2.jpg" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <h5>Mariana Guaraní</h5>
+                        <p class="text-muted">Directora de Sustentabilidad</p>
+                        <p class="small">Bióloga especializada en ecosistemas acuáticos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="social-icons">
-            <a href="https://facebook.com/yaguaretecamp" target="_blank">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://instagram.com/yaguaretecamp" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://wa.me/543794xxxxxx" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-            </a>
+    <!-- Footer idéntico a principal.html -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Botón de arrepentimiento</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Cancelar compra</a></li>
+                        <li><a href="#" class="text-white">Devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Conócenos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="sobreNosotros.html" class="text-white">Sobre nosotros</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="#" class="text-white">Trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Ayuda</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Envíos</a></li>
+                        <li><a href="#" class="text-white">Garantías</a></li>
+                        <li><a href="#" class="text-white">Métodos de pago</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <p>Copyright @ 2025 - Todos los derechos reservados.</p>
     </footer>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>

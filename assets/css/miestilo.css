@@ -1,177 +1,96 @@
+/* assets/css/miestilo.css */
+:root {
+  --verde-selva: #2A5C45;
+  --amarillo-terroso: #D4A418;
+  --naranja-ardiente: #E67E22;
+  --azul-profundo: #2C3E50;
+  --marron-tierra: #5D4037;
+  --beige: #F4ECD6;
+}
+
 body {
-  background-color: rgb(215, 215, 215); 
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+  background-color: var(--beige);
 }
 
-h1 {
-  color: rgb(0, 0, 0);
-  font-size: 2rem;
+/* Navbar personalizado */
+.navbar-custom {
+  background: linear-gradient(to right, var(--verde-selva) 30%, var(--azul-profundo));
+  border-bottom: 3px solid var(--amarillo-terroso);
+}
+
+.promo-envio {
+  color: var(--amarillo-terroso);
   font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+  margin-left: 1rem;
+  font-size: 0.9rem;
 }
 
-
-/*BARRA DE NAVEGACION*/
-.container-fluid, 
-.container-fluid, 
-.navbar {
-  background-color: rgb(215, 215, 215);
-  margin: 0;
-  padding: 0;
+/* Mejoras para el carrusel */
+.carousel-caption {
+  background: rgba(42, 92, 69, 0.8);
+  right: unset;
+  left: 5%;
+  width: 40%;
+  text-align: left;
+  padding: 2rem;
+  bottom: 25%;
 }
 
-.navbar-brand, 
-.navbar-nav .nav-link {
-  color: black;
+.btn-cta {
+  background-color: var(--naranja-ardiente);
+  border: 2px solid var(--amarillo-terroso);
   font-weight: bold;
-  transition: all 0.3s ease-in-out;
 }
 
-.navbar.bg-body-tertiary {
-  transition: background-color 1s ease-in-out;
+/* Tarjetas de productos */
+.card-producto {
+  transition: transform 0.3s;
+  border: 2px solid var(--azul-profundo);
 }
 
-.navbar.bg-body-tertiary:hover {
-  background-color: rgb(215, 215, 215) !important;
+.card-producto:hover {
+  transform: translateY(-5px);
 }
 
-.navbar-nav .nav-link:hover,
-.navbar-brand:hover {
-  color: rgb(34, 66, 22) !important;
-  transform: scale(1.02);
-  border: none;
+.badge-oferta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--naranja-ardiente);
 }
 
-.dropdown-menu {
-  background-color: rgb(215, 215, 215);
-  border: none;
-}
-
-.dropdown-menu .dropdown-item:hover {
-  background-color: rgb(239, 255, 238);
-  color: rgb(34, 66, 22);
-}
-
-/*CARRUSEL*/
-.carousel-item img {
-  max-height: 765px; 
-  object-fit: cover; 
-  width: 100%;
-}
-
-.carousel-caption h3 {
-  color:  rgb(215, 215, 215);
-  font-size: 2rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-/*ESTILOS DE CONTENIDO*/
-.parrafo{    
-  background-color: rgb(215, 215, 215);  
-  color: rgb(0, 0, 0);
-  font-family: verdana;
-  text-align: center;  
-  font-size: 16px;
-  font-style: italic; 
-  font-weight: bold;
-}  
-
-/*FOOTER*/
-footer { 
-  background-color: rgb(0, 0, 0);  
+/* Acordeón FAQ */
+.accordion-button {
+  background-color: var(--azul-profundo);
   color: white;
-  padding: 10px 20px 30px 40px;    
-  text-align: center;
-  margin-top: auto;  /* Esto empuja el footer hacia abajo */
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+.accordion-body {
+  background-color: var(--beige);
 }
 
-.social-icons a {
-  font-size: 24px;
+/* Newsletter */
+.seccion-newsletter {
+  background: var(--verde-selva);
+  padding: 3rem 0;
 }
 
-.social-icons a:hover {
-  transform: scale(1.2); 
+/* Añadir al final del archivo */
+.text-verde-selva { color: var(--verde-selva); }
+.text-azul-profundo { color: var(--azul-profundo); }
+.text-marron-tierra { color: var(--marron-tierra); }
+
+.border-verde-selva { border-color: var(--verde-selva) !important; }
+
+.team-card {
+    transition: all 0.3s ease;
+    padding: 1.5rem;
+    border-radius: 15px;
 }
 
-.social-icons .fa-facebook {
-  color: #1877f2;  /* Color oficial de Facebook */
+.team-card:hover {
+    background: rgba(42, 92, 69, 0.1);
+    transform: translateY(-5px);
 }
 
-.social-icons .fa-instagram {
-  color: #e440c9;  /* Color oficial de Instagram */
-}
-
-.social-icons .fa-whatsapp {
-  color: #25D366;  /* Color oficial de WhatsApp */
-}
-
-/*SOBRE NOSOTROS*/
-.sobre-nosotros {
-  background-color: rgb(215, 215, 215);
-  padding: 40px;
-  margin: 1.5rem 20px 0;
-  border-radius: 10px;
-  min-height: calc(100vh - 270px); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.sobre-nosotros h2 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
-}
-
-.sobre-nosotros h3 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
-}
-
-.sobre-nosotros h5 {
-  text-align: justify;
-  font-size: 22px;
-  font-weight: bold;
-  text-shadow: rgb(34, 66, 22) 1px 1px 2px;
-}
-
-.sobre-nosotros .contacto p{
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.sobre-nosotros p {
-  text-align: justify;
-  font-size: 18px;
-}
-
-/*GALERIA DE PRODUCTOS*/
-.card img{
-  height: 15vw;
-  object-fit: contain;
-  width: 100%;
-  background-color: rgb(215, 215, 215);
-}
-
-.card .card-body {
-  font-size: 16px; 
-  background-color: rgb(215, 215, 215);
-  color: rgb(0, 0, 0);
-  text-align: justify;
-  max-height: 150px; /* Limita la altura del texto */
-  overflow-y: auto; /* Agrega scroll si el texto es muy largo */
-}
+.bg-azul-profundo { background-color: var(--azul-profundo); }
