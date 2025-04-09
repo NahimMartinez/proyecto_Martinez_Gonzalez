@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="principal.html">
+                <a class="navbar-brand" href="<?= base_url('/') ?>">
                     <img src="assets/img/logo.png" alt="Logo" width="60" height="60">
                     Yaguareté Camp
                 </a>

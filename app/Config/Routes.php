@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 // Cambiar esto para que coincida exactamente con el enlace
-$routes->get('sobreNosotros', 'SobreNosotros::index');
+$routes->get('sobreNosotros', 'Home::sobre_Nosotros');
