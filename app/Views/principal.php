@@ -1,103 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Yaguareté Camp - Inicio</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/miestilo.css" rel="stylesheet" />
-    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" alt="Logo" width="60" height="60" />
-            Yaguareté Camp
-          </a>
-          <span class="promo-envio"
-            ><i class="fas fa-shipping-fast"></i> ¡Los primeros 3 envíos o
-            compras +$70.000 tienen envío gratis!</span
-          >
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <!-- Menú Productos -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  data-bs-toggle="dropdown"
-                >
-                  Productos
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li class="dropdown-header">Cañas de Pesca</li>
-                  <li><a class="dropdown-item" href="#">Spinning</a></li>
-                  <li><a class="dropdown-item" href="#">Baitcasting</a></li>
-                  <li><a class="dropdown-item" href="#">Telescópicas</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li class="dropdown-header">Camping</li>
-                  <li><a class="dropdown-item" href="#">Tiendas</a></li>
-                  <li><a class="dropdown-item" href="#">Sacos de dormir</a></li>
-                  <li><a class="dropdown-item" href="#">Iluminación</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li class="dropdown-header">Vestimenta</li>
-                  <li><a class="dropdown-item" href="#">Ropa técnica</a></li>
-                  <li><a class="dropdown-item" href="#">Calzado</a></li>
-                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                </ul>
-              </li>
-
-              <!-- Menú Guías -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  data-bs-toggle="dropdown"
-                >
-                  Guías
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li>
-                    <a class="dropdown-item" href="#">Tus primeros pasos</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Pesca avanzada</a></li>
-                  <li><a class="dropdown-item" href="#">Camping experto</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#"
-                  ><i class="fas fa-user"></i> Registrarse</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#"
-                  ><i class="fas fa-sign-in-alt"></i> Ingresar</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">
-                  <i class="fas fa-shopping-cart"></i> Carrito
-                  <span class="badge bg-danger">3</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    
 
     <!-- Sección Carrusel actualizada con controles e intervalo -->
     <section class="mb-5">
@@ -269,29 +170,6 @@
       </div>
     </section>
 
-    <!-- Sección FAQ -->
-    <section class="container mb-5">
-      <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
-      <div class="accordion">
-        <div class="accordion-item">
-          <h3 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#pregunta1"
-            >
-              ¿Cómo realizo una devolución?
-            </button>
-          </h3>
-          <div id="pregunta1" class="accordion-collapse collapse show">
-            <div class="accordion-body">Contenido de respuesta...</div>
-          </div>
-        </div>
-        <!-- Más preguntas... -->
-      </div>
-    </section>
-
     <!-- Sección Ubicación -->
     <section class="container mb-5">
       <h2 class="text-center mb-4">Nuestra Ubicación</h2>
@@ -338,6 +216,30 @@
       </div>
     </section>
 
+    <!-- Sección FAQ -->
+    <section class="container mb-5">
+          <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+          <div class="accordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#pregunta1"
+                >
+                  ¿Cómo realizo una devolución?
+                </button>
+              </h3>
+              <div id="pregunta1" class="accordion-collapse collapse shadow">
+                <div class="accordion-body">Contenido de respuesta...</div>
+              </div>
+            </div>
+            <!-- Más preguntas... -->
+          </div>
+        </section>
+
+
     <!-- Newsletter -->
     <section class="seccion-newsletter text-white">
       <div class="container py-5">
@@ -364,118 +266,9 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h5>Botón de arrepentimiento</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Cancelar compra</a></li>
-              <li><a href="#" class="text-white">Devoluciones</a></li>
-            </ul>
-          </div>
+    
 
-          <div class="col-md-3">
-            <h5>Conócenos</h5>
-            <ul class="list-unstyled">
-              <li><a href="<?= base_url('sobreNosotros') ?>" class="text-white">Sobre nosotros</a></li>
-            </ul>
-          </div>
+    
 
-          <div class="col-md-3">
-            <h5>Ayuda</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Envíos</a></li>
-              <li><a href="#" class="text-white">Devoluciones</a></li>
-              <li><a href="#" class="text-white">Garantía</a></li>
-            </ul>
-          </div>
+  
 
-          <div class="col-md-3 text-end">
-            <button
-              class="btn btn-cta rounded-pill shadow"
-              data-bs-toggle="modal"
-              data-bs-target="#contactoModal"
-            >
-              <i class="fas fa-envelope me-2"></i>Contacto
-            </button>
-            <p class="mt-2 text-white small">Comunícate con nosotros</p>
-            <div class="d-flex gap-3 justify-content-end">
-              <a href="#"><i class="fab fa-facebook fs-4 text-white"></i></a>
-              <a href="#"><i class="fab fa-instagram fs-4 text-white"></i></a>
-              <a href="#"><i class="fab fa-whatsapp fs-4 text-white"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Modal Contacto -->
-    <div class="modal fade" id="contactoModal" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-verde-selva text-white">
-            <h5 class="modal-title">Deja tu consulta</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nombre completo"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Correo electrónico"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Asunto" />
-              </div>
-              <div class="mb-3">
-                <input type="file" class="form-control" />
-                <small class="text-muted"
-                  >Adjunta comprobante si es necesario</small
-                >
-              </div>
-              <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  rows="4"
-                  placeholder="Tu mensaje..."
-                  required
-                ></textarea>
-              </div>
-              <div class="d-flex gap-2 justify-content-end">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Cancelar
-                </button>
-                <button type="submit" class="btn btn-cta">
-                  Enviar mensaje
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>

@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sobre Nosotros - Yaguareté Camp</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/miestilo.css" rel="stylesheet">
-    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
-</head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-custom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="<?= base_url('/') ?>">
-                    <img src="assets/img/logo.png" alt="Logo" width="60" height="60">
-                    Yaguareté Camp
-                </a>
-                <span class="promo-envio"><i class="fas fa-shipping-fast"></i> ¡Envíos gratis en compras mayores a $70.000!</span>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Pesca</a></li>
-                                <li><a class="dropdown-item" href="#">Camping</a></li>
-                                <li><a class="dropdown-item" href="#">Indumentaria</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="principal.html"><i class="fas fa-home"></i> Inicio</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <main class="container my-5">
         <!-- Sección Historia -->
@@ -60,9 +14,6 @@
                         <h4><i class="fas fa-water me-2"></i>Raíces Esterinas</h4>
                         <p>Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad.</p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/img/historia.jpg" class="img-fluid rounded-3 shadow" alt="Historia">
                 </div>
             </div>
         </section>
@@ -131,38 +82,3 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer idéntico a principal.html -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Botón de arrepentimiento</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Cancelar compra</a></li>
-                        <li><a href="#" class="text-white">Devoluciones</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Conócenos</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="sobreNosotros.html" class="text-white">Sobre nosotros</a></li>
-                        <li><a href="#" class="text-white">Blog</a></li>
-                        <li><a href="#" class="text-white">Trabaja con nosotros</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Ayuda</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Envíos</a></li>
-                        <li><a href="#" class="text-white">Garantías</a></li>
-                        <li><a href="#" class="text-white">Métodos de pago</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
