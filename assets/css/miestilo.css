@@ -61,12 +61,22 @@ body {
 
 /* Acordeón FAQ */
 .accordion-button {
-  background-color: var(--azul-profundo);
+  background-color: var(--verde-selva);
   color: white;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
 }
 
 .accordion-body {
   background-color: var(--beige);
+  color: var(--azul-profundo);
+  border-left: 3px solid var(--verde-selva);
+  border-right: 3px solid var(--verde-selva);
+  border-bottom: 3px solid var(--verde-selva);
 }
 
 /* Newsletter */
