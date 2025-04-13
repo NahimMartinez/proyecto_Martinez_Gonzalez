@@ -216,30 +216,6 @@
       </div>
     </section>
 
-    <!-- Sección FAQ -->
-    <section class="container mb-5">
-          <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
-          <div class="accordion">
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#pregunta1"
-                >
-                  ¿Cómo realizo una devolución?
-                </button>
-              </h3>
-              <div id="pregunta1" class="accordion-collapse collapse shadow">
-                <div class="accordion-body">Contenido de respuesta...</div>
-              </div>
-            </div>
-            <!-- Más preguntas... -->
-          </div>
-        </section>
-
-
     <!-- Newsletter -->
     <section class="seccion-newsletter text-white">
       <div class="container py-5">

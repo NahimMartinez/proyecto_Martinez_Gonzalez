@@ -85,6 +85,127 @@ body {
   padding: 3rem 0;
 }
 
+/*COMERCIALIZACION*/
+/* Estilo para las secciones de comercialización */
+section {
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background-color: var(--beige);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de las secciones */
+section h2 {
+  color: var(--verde-selva);
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-bottom: 2px solid var(--verde-selva);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Listas dentro de las secciones */
+section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section ul li {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1rem;
+  color: var(--azul-profundo);
+}
+
+section ul li::before {
+  content: "\f058"; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--verde-selva);
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  font-size: 1.2rem;
+}
+
+/* Enlaces dentro de las secciones */
+section a {
+  color: var(--verde-selva);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+section a:hover {
+  color: var(--amarillo-terroso);
+}
+
+/* Párrafos */
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--azul-profundo);
+}
+
+/* Botones dentro de las secciones (si se agregan en el futuro) */
+section .btn {
+  background-color: var(--verde-selva);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover en las secciones */
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  background-color: rgba(244, 236, 214, 0.9); /* Un beige más claro */
+}
+
+/*FOOTER*/
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--amarillo-terroso);
+  text-decoration: underline;
+}
+
+/* Hover en los íconos de redes sociales */
+footer .fab {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .fab:hover {
+  transform: scale(1.2);
+  color: var(--amarillo-terroso);
+}
+
+/* Hover en el botón de contacto */
+footer .btn-cta {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover en los logos de métodos de pago */
+.logo-hover {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+footer .btn-cta:hover {
+  background-color: var(--amarillo-terroso);
+  transform: translateY(-3px);
+}
+
 /* Añadir al final del archivo */
 .text-verde-selva { color: var(--verde-selva); }
 .text-azul-profundo { color: var(--azul-profundo); }
