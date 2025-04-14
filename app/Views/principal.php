@@ -1,7 +1,5 @@
-    
-
-    <!-- Sección Carrusel actualizada con controles e intervalo -->
-    <section class="mb-5">
+<!-- Sección Carrusel ajustada a pantalla completa -->
+    <section class="mb-5 carousel-section">
       <div
         id="mainCarousel"
         class="carousel slide"
@@ -224,7 +222,7 @@
             <h3>
               <i class="fas fa-envelope-open-text me-2"></i>Mantente informado
             </h3>
-            <p>
+            <p class="texto-destacado">
               Recibe novedades, ofertas exclusivas y consejos para tus aventuras
             </p>
           </div>
@@ -242,9 +240,9 @@
       </div>
     </section>
 
-    
 
-    
 
-  
+
+
+
 

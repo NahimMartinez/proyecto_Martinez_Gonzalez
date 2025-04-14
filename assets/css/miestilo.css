@@ -26,20 +26,144 @@ body {
 }
 
 /* Mejoras para el carrusel */
-.carousel-caption {
-  background: rgba(42, 92, 69, 0.8);
-  right: unset;
-  left: 5%;
-  width: 40%;
-  text-align: left;
-  padding: 2rem;
-  bottom: 25%;
+/* Asegurarse que el carrusel esté pegado al navbar y a los costados */
+section.mb-5:first-of-type {
+  padding: 0;
+  margin: 0;
 }
 
-.btn-cta {
-  background-color: var(--naranja-ardiente);
-  border: 2px solid var(--amarillo-terroso);
+/* Nuevo - Contenedor para el carrusel a pantalla completa */
+#mainCarousel {
+  height: calc(100vh - 76px); /* Altura total de la ventana menos la altura del navbar */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item {
+  height: 100%; /* Que el item ocupe todo el alto del contenedor */
+}
+
+.carousel-item img {
+  height: 100%; /* 100% de la altura del carrusel */
+  width: 100%;
+  object-fit: cover; /* Asegurar que la imagen cubra todo el espacio */
+}
+
+/* Modificación - Cartel alineado a la izquierda y centrado verticalmente */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo más transparente */
+  position: absolute;
+  left: 15%; /* Posicionado a la izquierda pero sin superponerse con la flecha */
+  top: 50%;
+  transform: translateY(-50%); /* Centrado vertical */
+  max-width: 400px;
+  width: 70%;
+  text-align: left;
+  padding: 1.5rem;
+  border-left: 4px solid var(--amarillo-terroso); /* Borde para resaltar */
+  border-radius: 4px;
+  margin-bottom: 0; /* Asegurarse que no hay margen adicional */
+  max-height: 80%; /* Altura máxima para no tocar los bordes */
+  overflow: auto; /* Por si el contenido es muy grande */
+  box-sizing: border-box; /* Incluir padding en el cálculo de altura */
+}
+
+/* Media queries para responsive */
+@media (max-width: 992px) {
+  .carousel-caption {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: none;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #mainCarousel {
+    height: 500px; /* Altura fija para tablets */
+  }
+  
+  .carousel-caption {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption .btn-cta {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #mainCarousel {
+    height: 400px; /* Altura más pequeña para móviles */
+  }
+  
+  .carousel-caption {
+    left: 50%;
+    width: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Mejorar los controles de navegación del carrusel */
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+}
+
+.carousel-caption h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para mejor legibilidad */
   font-weight: bold;
+}
+
+.carousel-caption p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Sombra de texto para mejor legibilidad */
+}
+
+/* Botón principal CTA */
+.btn-cta {
+  background-color: var(--amarillo-terroso);
+  border: 2px solid var(--azul-profundo);
+  font-weight: bold;
+  color: var(--azul-profundo);
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Tarjetas de productos */
@@ -82,7 +206,32 @@ body {
 /* Newsletter */
 .seccion-newsletter {
   background: var(--verde-selva);
-  padding: 3rem 0;
+  padding: 2rem 0;
+  margin-bottom: 0; /* Eliminar el margen inferior para pegar al footer */
+  border-radius: 0 0 0 0; /* Eliminar redondeo en las esquinas inferiores */
+}
+
+.seccion-newsletter .btn-cta {
+  background-color: var(--amarillo-terroso);
+  border: 2px solid var(--beige);
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.seccion-newsletter .btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para destacar el texto del newsletter */
+.seccion-newsletter .texto-destacado {
+  color: var(--amarillo-terroso);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 /*COMERCIALIZACION*/
@@ -145,7 +294,7 @@ section a:hover {
 section p {
   font-size: 1rem;
   line-height: 1.6;
-  color: var(--azul-profundo);
+  color: var (--azul-profundo);
 }
 
 /* Botones dentro de las secciones (si se agregan en el futuro) */
@@ -158,8 +307,8 @@ section .btn {
   transition: background-color 0.3s ease;
 }
 
-/* Hover en las secciones */
-section:hover {
+/* Hover en las secciones - excluye la sección newsletter */
+section:not(.seccion-newsletter):hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
@@ -186,9 +335,20 @@ footer .fab:hover {
   color: var(--amarillo-terroso);
 }
 
-/* Hover en el botón de contacto */
+/* Botón de contacto en el footer */
 footer .btn-cta {
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: var(--amarillo-terroso);
+  border: 2px solid white;
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+footer .btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Hover en los logos de métodos de pago */
@@ -201,14 +361,9 @@ footer .btn-cta {
   opacity: 0.8;
 }
 
-footer .btn-cta:hover {
-  background-color: var(--amarillo-terroso);
-  transform: translateY(-3px);
-}
-
 /* Añadir al final del archivo */
 .text-verde-selva { color: var(--verde-selva); }
-.text-azul-profundo { color: var(--azul-profundo); }
+.text-azul-profundo { color: var (--azul-profundo); }
 .text-marron-tierra { color: var(--marron-tierra); }
 
 .border-verde-selva { border-color: var(--verde-selva) !important; }
