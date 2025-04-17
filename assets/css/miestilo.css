@@ -25,6 +25,46 @@ body {
   font-size: 0.9rem;
 }
 
+/* Estilos compartidos para los modales de registro e inicio de sesión */
+#loginModal, #registroModal {
+  /* Estilo general para ambos modales */
+  .modal-header {
+    background-color: var(--verde-selva);
+    color: white;
+  }
+
+  .modal-content {
+    border: 2px solid var(--verde-selva);
+    border-radius: 10px;
+  }
+
+  .modal-body {
+    background-color: var(--beige);
+  }
+
+  .form-label {
+    color: var(--azul-profundo);
+    font-weight: bold;
+  }
+
+  .form-control {
+    border: 1px solid var(--verde-selva);
+    border-radius: 5px;
+  }
+
+  .btn {
+    background-color: var(--amarillo-terroso);
+    color: var(--azul-profundo);
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: var(--naranja-ardiente);
+    color: white;
+  }
+}
+
 /* Mejoras para el carrusel */
 /* Asegurarse que el carrusel esté pegado al navbar y a los costados */
 section.mb-5:first-of-type {
