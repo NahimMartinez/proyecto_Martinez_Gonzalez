@@ -58,10 +58,9 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
                   <li>
-                    <a class="dropdown-item" href="#">Tus primeros pasos</a>
+                    <a class="dropdown-item" href="https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_k0700_0639e.pdf">Tus primeros pasos</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Pesca avanzada</a></li>
-                  <li><a class="dropdown-item" href="#">Camping experto</a></li>
+                  <li><a class="dropdown-item" href="https://www.guiadecamping.com/manual_camping.htm">Camping</a></li>
                 </ul>
               </li>
 
