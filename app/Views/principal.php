@@ -36,7 +36,7 @@
               alt="Pesca"
             />
             <div class="carousel-caption">
-              <h2 class="display-4">Equipamiento profesional de pesca</h2>
+              <h2 class="display-4">Equipamiento de pesca</h2>
               <p class="lead">¡Hasta 30% OFF en cañas de alta gama!</p>
               <button class="btn btn-cta btn-lg">Ver Ofertas</button>
             </div>
@@ -50,9 +50,9 @@
               alt="Camping"
             />
             <div class="carousel-caption">
-              <h2 class="display-4">Equípate para la aventura</h2>
+              <h2 class="display-4">Equipos para la aventura</h2>
               <p class="lead">
-                Tiendas y sacos de dormir con 25% OFF + Envío gratis
+                Tiendas y sacos de dormir con 25% OFF
               </p>
               <button class="btn btn-cta btn-lg">Ver Colección</button>
             </div>

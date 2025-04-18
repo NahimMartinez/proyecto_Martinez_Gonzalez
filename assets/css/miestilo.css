@@ -95,17 +95,17 @@ section.mb-5:first-of-type {
   position: absolute;
   left: 15%; /* Posicionado a la izquierda pero sin superponerse con la flecha */
   top: 50%;
-  transform: translateY(-50%); /* Centrado vertical */
+  transform: translateY(-50%); 
   max-width: 400px;
   width: 70%;
   text-align: left;
   padding: 1.5rem;
   border-left: 4px solid var(--amarillo-terroso); /* Borde para resaltar */
   border-radius: 4px;
-  margin-bottom: 0; /* Asegurarse que no hay margen adicional */
-  max-height: 80%; /* Altura máxima para no tocar los bordes */
-  overflow: auto; /* Por si el contenido es muy grande */
-  box-sizing: border-box; /* Incluir padding en el cálculo de altura */
+  margin-bottom: 0; 
+  max-height: 80%; 
+  overflow: auto; 
+  box-sizing: border-box; 
 }
 
 /* Media queries para responsive */
@@ -272,6 +272,11 @@ section.mb-5:first-of-type {
   font-style: italic;
   font-weight: 500;
   letter-spacing: 0.5px;
+}
+
+/*SOBRE NOSOTROS*/
+section.mb-5.py-4{
+  padding: 2rem;
 }
 
 /*COMERCIALIZACION*/
