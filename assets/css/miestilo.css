@@ -274,7 +274,7 @@ section.carousel-section {
   background-color: var(--naranja-ardiente);
   color: white;
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra eliminada */
 }
 
 /* Tarjetas de productos */
@@ -334,7 +334,7 @@ section.carousel-section {
   background-color: var(--naranja-ardiente);
   color: white;
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra eliminada */
 }
 
 /* Estilo para destacar el texto del newsletter */
@@ -357,17 +357,19 @@ section {
   border-radius: 8px;
   margin-bottom: 2rem;
   background-color: var(--beige);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra eliminada */
 }
 
 /* Títulos de las secciones */
 section h2 {
+  font-family: 'Caveat', cursive;
   color: var(--verde-selva);
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 2.3rem;
+  font-weight: 700;
   border-bottom: 2px solid var(--verde-selva);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 
 /* Listas dentro de las secciones */
@@ -426,7 +428,7 @@ section .btn {
 /* Hover en las secciones - excluye la sección newsletter */
 section:not(.seccion-newsletter):hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  /* Sombra eliminada */
   transition: all 0.3s ease;
   background-color: rgba(244, 236, 214, 0.9); /* Un beige más claro */
 }
@@ -464,7 +466,7 @@ footer .btn-cta:hover {
   background-color: var(--naranja-ardiente);
   color: white;
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra eliminada */
 }
 
 /* Hover en los logos de métodos de pago */
@@ -496,3 +498,18 @@ footer .btn-cta:hover {
 }
 
 .bg-azul-profundo { background-color: var(--azul-profundo); }
+
+/* Título principal y subtítulos con fuente handwriting */
+h1.titulo-handwriting, h3.titulo-handwriting {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1.titulo-handwriting {
+  font-size: 3rem;
+}
+
+h3.titulo-handwriting {
+  font-size: 2.2rem;
+}

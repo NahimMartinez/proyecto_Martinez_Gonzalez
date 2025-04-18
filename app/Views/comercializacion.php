@@ -1,5 +1,5 @@
 <main class="container my-5">
-    <h1 class="text-center mb-4 text-verde-selva">Comercialización</h1>
+    <h1 class="text-center mb-4 text-verde-selva titulo-handwriting">Comercialización</h1>
     
     <section class="mb-4">
         <h2>Tipos de Entregas</h2>

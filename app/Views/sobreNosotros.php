@@ -21,7 +21,7 @@
         <!-- Misión, Visión, Valores -->
         <section class="bg-light py-5 mb-5">
             <div class="container">
-                <h3 class="text-center mb-5 text-marron-tierra">
+                <h3 class="text-center mb-5 text-marron-tierra titulo-handwriting">
                     <i class="fas fa-bullseye me-2"></i>Nuestros Pilares
                 </h3>
                 <div class="row g-4">
@@ -59,7 +59,7 @@
 
         <!-- Equipo -->
         <section class="mb-5">
-            <h3 class="text-center mb-5 text-verde-selva">
+            <h3 class="text-center mb-5 text-verde-selva titulo-handwriting">
                 <i class="fas fa-users me-2"></i>Nuestros Creadores
             </h3>
             <div class="row g-4 justify-content-center">

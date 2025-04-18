@@ -1,5 +1,5 @@
 <main class="container my-5">
-    <h1 class="text-center mb-4 text-verde-selva">
+    <h1 class="text-center mb-4 text-verde-selva titulo-handwriting">
         <i class="fas fa-file-contract me-2"></i>Términos y Condiciones de Uso
     </h1>
     <p class="text-muted text-center mb-5">

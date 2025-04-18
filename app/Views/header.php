@@ -7,7 +7,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/miestilo.css" rel="stylesheet" />
     <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <style>
       /* Fuente handwriting para el título */
       .handwriting-font {

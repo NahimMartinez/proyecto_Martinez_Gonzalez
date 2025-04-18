@@ -1,5 +1,5 @@
 <main class="container my-5">
-    <h1 class="text-center mb-4 text-verde-selva">Información de Contacto</h1>
+    <h1 class="text-center mb-4 text-verde-selva titulo-handwriting">Información de Contacto</h1>
     
     <section class="mb-4">
         <h2 class="text-azul-profundo">Datos de la Empresa</h2>
@@ -12,4 +12,3 @@
         </div>
     </section>
 </main>
-    
