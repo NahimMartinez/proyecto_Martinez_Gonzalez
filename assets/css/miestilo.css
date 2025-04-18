@@ -65,105 +65,176 @@ body {
   }
 }
 
-/* Mejoras para el carrusel */
-/* Asegurarse que el carrusel esté pegado al navbar y a los costados */
-section.mb-5:first-of-type {
-  padding: 0;
-  margin: 0;
-}
+/* --- REFACTORIZACIÓN Y MEJORA RESPONSIVE DEL CARRUSEL --- */
 
-/* Nuevo - Contenedor para el carrusel a pantalla completa */
-#mainCarousel {
-  height: calc(100vh - 76px); /* Altura total de la ventana menos la altura del navbar */
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-item {
-  height: 100%; /* Que el item ocupe todo el alto del contenedor */
-}
-
+/* 1. Eliminar restricciones globales de altura fuera de media queries */
+#mainCarousel,
+.carousel-item,
 .carousel-item img {
-  height: 100%; /* 100% de la altura del carrusel */
-  width: 100%;
-  object-fit: cover; /* Asegurar que la imagen cubra todo el espacio */
+  height: auto;
+  min-height: unset;
+  max-height: unset;
 }
 
-/* Modificación - Cartel alineado a la izquierda y centrado verticalmente */
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Fondo más transparente */
-  position: absolute;
-  left: 15%; /* Posicionado a la izquierda pero sin superponerse con la flecha */
-  top: 50%;
-  transform: translateY(-50%); 
-  max-width: 400px;
-  width: 70%;
-  text-align: left;
-  padding: 1.5rem;
-  border-left: 4px solid var(--amarillo-terroso); /* Borde para resaltar */
-  border-radius: 4px;
-  margin-bottom: 0; 
-  max-height: 80%; 
-  overflow: auto; 
-  box-sizing: border-box; 
+section.carousel-section {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-/* Media queries para responsive */
-@media (max-width: 992px) {
+/* --- MOBILE FIRST: Ajustes para móviles pequeños (iPhone SE, Galaxy S8+, etc.) --- */
+@media (max-width: 400px) {
+  #mainCarousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 60vh;
+    min-height: 220px;
+    max-height: 100vw;
+  }
   .carousel-caption {
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: none;
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  #mainCarousel {
-    height: 500px; /* Altura fija para tablets */
-  }
-  
-  .carousel-caption {
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .carousel-caption h2 {
-    font-size: 1.5rem;
-  }
-
-  .carousel-caption p {
-    font-size: 0.9rem;
-  }
-
-  .carousel-caption .btn-cta {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 576px) {
-  #mainCarousel {
-    height: 400px; /* Altura más pequeña para móviles */
-  }
-  
-  .carousel-caption {
-    left: 50%;
-    width: 90%;
+    width: 98%;
+    max-width: 98vw;
     top: 50%;
     transform: translate(-50%, -50%);
+    padding: 0.5rem 0.7rem;
+    font-size: 0.85rem;
+    border-left: 3px solid var(--amarillo-terroso);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro sutil con opacidad */
+    backdrop-filter: blur(1px); /* Efecto de desenfoque sutil */
   }
-
   .carousel-caption h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    word-break: break-word;
+    line-height: 1.1;
   }
-
   .carousel-caption p {
     font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+/* --- Ajustes para móviles medianos (iPhone 12 Pro, Galaxy Z Fold, etc.) --- */
+@media (min-width: 401px) and (max-width: 576px) {
+  #mainCarousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 70vh;
+    min-height: 260px;
+    max-height: 100vw;
+  }
+  .carousel-caption {
+    left: 50%;
+    width: 95%;
+    max-width: 95vw;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+    border-left: 3px solid var(--amarillo-terroso);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro sutil con opacidad */
+    backdrop-filter: blur(1px); /* Efecto de desenfoque sutil */
+  }
+  .carousel-caption h2 {
+    font-size: 1.15rem;
+    word-break: break-word;
+    line-height: 1.15;
+  }
+  .carousel-caption p {
+    font-size: 0.85rem;
     margin-bottom: 0.5rem;
   }
 }
+
+/* --- Tablets y dispositivos grandes tipo iPad, Surface, Zenbook Fold, etc. --- */
+@media (min-width: 577px) and (max-width: 991px) {
+  #mainCarousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 75vh;
+    min-height: 350px;
+    max-height: 100vw;
+  }
+  .carousel-caption {
+    left: 50%;
+    width: 85%;
+    max-width: 600px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-left: 4px solid var(--amarillo-terroso);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro sutil con opacidad */
+    backdrop-filter: blur(1px); /* Efecto de desenfoque sutil */
+  }
+  .carousel-caption h2 {
+    font-size: 1.4rem;
+    word-break: break-word;
+    line-height: 1.15;
+  }
+}
+
+/* --- Laptops y tablets grandes --- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #mainCarousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 80vh;
+    min-height: 400px;
+    max-height: 100vw;
+  }
+  .carousel-caption {
+    left: 50%;
+    width: 70%;
+    max-width: 700px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.2rem 2.5rem;
+    font-size: 1.15rem;
+    border-left: 4px solid var(--amarillo-terroso);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro sutil con opacidad */
+    backdrop-filter: blur(1px); /* Efecto de desenfoque sutil */
+  }
+  .carousel-caption h2 {
+    font-size: 1.7rem;
+    word-break: break-word;
+    line-height: 1.15;
+  }
+}
+
+/* --- Desktop/PC --- */
+@media (min-width: 1200px) {
+  section.carousel-section,
+  #mainCarousel,
+  #mainCarousel .carousel-item,
+  #mainCarousel .carousel-item img {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+  #mainCarousel .carousel-caption {
+    left: 15% !important;
+    width: 70% !important;
+    max-width: 400px !important;
+    padding: 1.5rem !important;
+    font-size: 1rem !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    border-left: 4px solid var(--amarillo-terroso);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro sutil con opacidad */
+    backdrop-filter: blur(1px); /* Efecto de desenfoque sutil */
+  }
+  #mainCarousel .carousel-caption h2 {
+    font-size: 2rem;
+    word-break: break-word;
+    line-height: 1.1;
+  }
+}
+
+/* --- FIN REFACTORIZACIÓN Y MEJORA RESPONSIVE DEL CARRUSEL --- */
 
 /* Mejorar los controles de navegación del carrusel */
 .carousel-control-prev, .carousel-control-next {
