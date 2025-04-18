@@ -203,13 +203,18 @@ section.carousel-section {
 
 /* --- Desktop/PC --- */
 @media (min-width: 1200px) {
+  section.carousel-section {
+    margin-top: 0 !important; /* Eliminado el margen superior */
+    position: relative;
+    z-index: 1; /* Añadido z-index para evitar interferencia con otras secciones */
+  }
   section.carousel-section,
   #mainCarousel,
   #mainCarousel .carousel-item,
   #mainCarousel .carousel-item img {
-    height: 100vh !important;
-    min-height: 100vh !important;
-    max-height: 100vh !important;
+    height: 90vh !important; /* Aumentado de 85vh a 90vh para que cubra más pantalla */
+    min-height: 550px !important;
+    max-height: 90vh !important;
     object-fit: cover !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -431,6 +436,19 @@ section:not(.seccion-newsletter):hover {
   /* Sombra eliminada */
   transition: all 0.3s ease;
   background-color: rgba(244, 236, 214, 0.9); /* Un beige más claro */
+}
+
+/* Ajustes para la sección de productos destacados */
+section.container.mb-5 {
+  position: relative;
+  z-index: 2; /* Mayor z-index que el carrusel */
+  margin-top: 30px; /* Espacio adicional entre el carrusel y los productos */
+  background-color: var(--beige); /* Fondo sólido para evitar transparencias */
+}
+
+/* Mejorar la separación visual con esta clase específica */
+section.carousel-section + section.container {
+  padding-top: 40px; /* Mayor espacio superior específicamente después del carrusel */
 }
 
 /*FOOTER*/
