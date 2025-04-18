@@ -31,7 +31,7 @@
           <!-- Slide 1 (Pesca) -->
           <div class="carousel-item active">
             <img
-              src="assets/img/pescador.jpeg"
+              src="assets/img/pescador.png"
               class="d-block w-100"
               alt="Pesca"
             />
@@ -45,7 +45,7 @@
           <!-- Slide 2 (Camping) -->
           <div class="carousel-item">
             <img
-              src="assets/img/carpa.jpeg"
+              src="assets/img/carpa.png"
               class="d-block w-100"
               alt="Camping"
             />
@@ -61,7 +61,7 @@
           <!-- Slide 3 (Naturaleza) -->
           <div class="carousel-item">
             <img
-              src="assets/img/rio.jpeg"
+              src="assets/img/paisaje.png"
               class="d-block w-100"
               alt="Naturaleza"
             />
