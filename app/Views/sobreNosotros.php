@@ -60,12 +60,12 @@
         <!-- Equipo -->
         <section class="mb-5">
             <h3 class="text-center mb-5 text-verde-selva">
-                <i class="fas fa-users me-2"></i>Nuestro Equipo
+                <i class="fas fa-users me-2"></i>Nuestros Creadores
             </h3>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-3 text-center">
                     <div class="team-card">
-                        <img src="assets/img/fundador1.jpg" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <img src="assets/img/luciano.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
                         <h5>Luciano Guaraní</h5>
                         <p class="text-muted">CEO & Co-Fundador</p>
                         <p class="small">Especialista en pesca con mosca</p>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <div class="team-card">
-                        <img src="assets/img/fundador2.jpg" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <img src="assets/img/mariana.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
                         <h5>Mariana Guaraní</h5>
                         <p class="text-muted">Directora de Sustentabilidad</p>
                         <p class="small">Bióloga especializada en ecosistemas acuáticos</p>
