@@ -444,11 +444,14 @@ section.container.mb-5 {
   z-index: 2; /* Mayor z-index que el carrusel */
   margin-top: 30px; /* Espacio adicional entre el carrusel y los productos */
   background-color: var(--beige); /* Fondo sólido para evitar transparencias */
+  padding-top: 20px; /* Padding superior extra */
+  box-shadow: 0 -10px 15px -5px rgba(0,0,0,0.1); /* Sombra sutil en la parte superior */
 }
 
 /* Mejorar la separación visual con esta clase específica */
 section.carousel-section + section.container {
   padding-top: 40px; /* Mayor espacio superior específicamente después del carrusel */
+  margin-top: 40px; /* Aumentar el margen para evitar solapamiento con el carrusel */
 }
 
 /*FOOTER*/
@@ -495,6 +498,31 @@ footer .btn-cta:hover {
 .logo-hover:hover {
   transform: scale(1.1);
   opacity: 0.8;
+}
+
+/* Estilos responsive para el footer */
+@media (max-width: 767.98px) {
+  footer .col-md-4 {
+    text-align: center !important;
+    margin-bottom: 2rem;
+  }
+  
+  footer .text-end {
+    text-align: center !important;
+  }
+  
+  footer .d-flex.gap-3.justify-content-end {
+    justify-content: center !important;
+  }
+  
+  footer h5 {
+    margin-top: 1rem;
+  }
+  
+  footer .btn-cta {
+    margin: 0 auto 1rem;
+    display: block;
+  }
 }
 
 /* Añadir al final del archivo */

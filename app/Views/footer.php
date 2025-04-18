@@ -3,8 +3,8 @@
         <div class="row">
             <!-- Sección Conócenos -->
             <div class="col-md-4">
-                <h5>Conócenos</h5>
-                <ul class="list-unstyled">
+                <h5 class="text-center text-md-start">Conócenos</h5>
+                <ul class="list-unstyled text-center text-md-start">
                     <li><a href="<?= base_url('sobreNosotros') ?>" class="text-white">Sobre nosotros</a></li>
                     <li><a href="<?= base_url('termYCondiciones') ?>" class="text-white">Términos y condiciones</a></li>
                     <li><a href="<?= base_url('comercializacion') ?>" class="text-white">Comercialización</a></li>
@@ -13,9 +13,9 @@
             </div>
 
             <!-- Sección Métodos de Pago -->
-            <div class="col-md-4 text-center">
-                <h5>Métodos de Pago</h5>
-                <ul class="list-unstyled">
+            <div class="col-md-4">
+                <h5 class="text-center">Métodos de Pago</h5>
+                <ul class="list-unstyled text-center">
                     <li class="mb-2">
                         <a href="https://www.visa.com.ar" target="_blank">
                             <img src="assets/img/metodos_pago/visa.png" alt="Visa" class="img-fluid me-2 logo-hover" style="width: 70px;">
@@ -33,7 +33,7 @@
             </div>
 
             <!-- Sección Formulario de Contacto y Redes Sociales -->
-            <div class="col-md-4 text-end">
+            <div class="col-md-4 text-center text-md-end">
                 <button
                     class="btn btn-cta rounded-pill shadow mb-3"
                     data-bs-toggle="modal"
@@ -42,7 +42,7 @@
                     <i class="fas fa-envelope me-2"></i>Contacto
                 </button>
                 <p class="mt-2 text-white small">Comunícate con nosotros</p>
-                <div class="d-flex gap-3 justify-content-end mb-3">
+                <div class="d-flex gap-3 justify-content-center justify-content-md-end mb-3">
                     <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
                         <i class="fab fa-facebook fs-4 text-white"></i>
                     </a>
