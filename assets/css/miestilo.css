@@ -25,12 +25,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Solución definitiva para los modales - Eliminar selectores anidados problemáticos */
-/* Primero, eliminar los estilos anidados que causan conflicto */
-#loginModal, #registroModal {
-  /* Este selector anidado causa problemas - lo reemplazamos por selectores directos */
-}
-
 /* Estilos corregidos para los modales */
 .modal {
   z-index: 1055 !important; 
@@ -404,10 +398,11 @@ section.carousel-section {
     overflow: visible; /* Asegurar que el contenido no se corte */
   }
 
-  #mainCarousel .carousel-caption .btn-cta:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  }
+  /* Deshabilitar animación al hover en el carrusel */
+.carousel-section:hover {
+  transform: none !important; /* Elimina cualquier transformación */
+  transition: none !important; /* Elimina la transición */
+}
 
   /* Corregir los botones que se salen de las tarjetas de productos */
   /* Específicamente para escritorio */
