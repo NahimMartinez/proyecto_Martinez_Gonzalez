@@ -110,13 +110,17 @@
     <div class="col-md-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/caña1.jpg" class="card-img-top" alt="Caña" />
+        <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
-          <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
-          <p class="card-text">Resistencia: 150-300 gramos</p>
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="card-text-container">
+            <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
+            <p class="card-text">Resistencia: 150-300 gramos</p>
+          </div>
+          <div class="card-action-container">
             <h4 class="text-success">$37.500</h4>
-            <button class="btn btn-outline-primary">Ver más</button>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
           </div>
         </div>
       </div>
@@ -124,13 +128,17 @@
     <div class="col-md-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">6 cuotas sin interés</span>
-        <img src="assets/img/caña2.jpg" class="card-img-top" alt="Caña" />
+        <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
-          <h5 class="card-title">Caña completa</h5>
-          <p class="card-text">Material: fibra de vidrio</p>
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="card-text-container">
+            <h5 class="card-title">Caña completa</h5>
+            <p class="card-text">Material: fibra de vidrio</p>
+          </div>
+          <div class="card-action-container">
             <h4 class="text-success">$50.500</h4>
-            <button class="btn btn-outline-primary">Ver más</button>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
           </div>
         </div>
       </div>
@@ -138,13 +146,17 @@
     <div class="col-md-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/carpa1.jpg" class="card-img-top" alt="Caña" />
+        <img src="assets/img/carpa2.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
-          <h5 class="card-title">Carpa completa</h5>
-          <p class="card-text">Capacidad: 3 personas</p>
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="card-text-container">
+            <h5 class="card-title">Carpa completa</h5>
+            <p class="card-text">Capacidad: 3 personas</p>
+          </div>
+          <div class="card-action-container">
             <h4 class="text-success">$71.500</h4>
-            <button class="btn btn-outline-primary">Ver más</button>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
           </div>
         </div>
       </div>
@@ -170,24 +182,22 @@
         >
 
         <img
-          src="assets/img/remera1.jpg"
+          src="assets/img/remera1.png"
           class="card-img-top"
           alt="Oferta"
         />
 
         <div class="card-body">
-          <h5 class="card-title">Campera de pesca</h5>
-
-          <p class="card-text">Ultraliviana y comoda</p>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <div>
-              <h4 class="text-danger">$89.999</h4>
-
-              <small class="text-success">3 cuotas sin interés</small>
+          <div class="card-text-container">
+            <h5 class="card-title">Campera de pesca</h5>
+            <p class="card-text">Ultraliviana y comoda</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-danger">$89.999</h4>
+            <small class="text-success d-block">3 cuotas sin interés</small>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
             </div>
-
-            <button class="btn btn-outline-primary btn-sm">Ver más</button>
           </div>
         </div>
       </div>
@@ -199,24 +209,22 @@
         >
 
         <img
-          src="assets/img/remera2.jpg"
+          src="assets/img/remera2.png"
           class="card-img-top"
           alt="Oferta"
         />
 
         <div class="card-body">
-          <h5 class="card-title">Campera camuflada</h5>
-
-          <p class="card-text">Proteccion contra los rayos del sol</p>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <div>
-              <h4 class="text-danger">$99.999</h4>
-
-              <small class="text-success">3 cuotas sin interés</small>
+          <div class="card-text-container">
+            <h5 class="card-title">Campera camuflada</h5>
+            <p class="card-text">Proteccion contra los rayos del sol</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-danger">$99.999</h4>
+            <small class="text-success d-block">3 cuotas sin interés</small>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
             </div>
-
-            <button class="btn btn-outline-primary btn-sm">Ver más</button>
           </div>
         </div>
       </div>
@@ -228,24 +236,22 @@
         >
 
         <img
-          src="assets/img/carpa2.jpg"
+          src="assets/img/carpa3.png"
           class="card-img-top"
           alt="Oferta"
         />
 
         <div class="card-body">
-          <h5 class="card-title">Carpa completa</h5>
-
-          <p class="card-text">Con capacidad para 5 personas</p>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <div>
-              <h4 class="text-danger">$120.999</h4>
-
-              <small class="text-success">3 cuotas sin interés</small>
+          <div class="card-text-container">
+            <h5 class="card-title">Carpa completa</h5>
+            <p class="card-text">Con capacidad para 5 personas</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-danger">$120.999</h4>
+            <small class="text-success d-block">3 cuotas sin interés</small>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
             </div>
-
-            <button class="btn btn-outline-primary btn-sm">Ver más</button>
           </div>
         </div>
       </div>
@@ -257,24 +263,22 @@
         >
 
         <img
-          src="assets/img/traje1.jpg"
+          src="assets/img/traje1.png"
           class="card-img-top"
           alt="Oferta"
         />
 
         <div class="card-body">
-          <h5 class="card-title">Traje de pesca</h5>
-
-          <p class="card-text">Impermeable y super cómodo</p>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <div>
-              <h4 class="text-danger">$49.899</h4>
-
-              <small class="text-success">6 cuotas sin interés</small>
+          <div class="card-text-container">
+            <h5 class="card-title">Traje de pesca</h5>
+            <p class="card-text">Impermeable y super cómodo</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-danger">$49.899</h4>
+            <small class="text-success d-block">6 cuotas sin interés</small>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
             </div>
-
-            <button class="btn btn-outline-primary btn-sm">Ver más</button>
           </div>
         </div>
       </div>
@@ -301,7 +305,7 @@
 
     <!-- Horarios -->
     <div class="col-md-6">
-      <div class="bg-light p-4 rounded shadow">
+      <div class="bg-light p-4 rounded">
         <h3 class="text-center mb-3">
           <i class="fas fa-clock me-2 text-primary"></i>Horarios de Atención
         </h3>
