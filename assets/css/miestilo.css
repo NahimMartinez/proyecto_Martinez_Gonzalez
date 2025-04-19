@@ -25,44 +25,142 @@ body {
   font-size: 0.9rem;
 }
 
-/* Estilos compartidos para los modales de registro e inicio de sesión */
+/* Solución definitiva para los modales - Eliminar selectores anidados problemáticos */
+/* Primero, eliminar los estilos anidados que causan conflicto */
 #loginModal, #registroModal {
-  /* Estilo general para ambos modales */
-  .modal-header {
-    background-color: var(--verde-selva);
-    color: white;
-  }
+  /* Este selector anidado causa problemas - lo reemplazamos por selectores directos */
+}
 
-  .modal-content {
-    border: 2px solid var(--verde-selva);
-    border-radius: 10px;
-  }
+/* Estilos corregidos para los modales */
+.modal {
+  z-index: 1055 !important; 
+}
 
-  .modal-body {
-    background-color: var(--beige);
-  }
+.modal-backdrop {
+  z-index: 1050 !important;
+}
 
-  .form-label {
-    color: var(--azul-profundo);
-    font-weight: bold;
-  }
+.modal-dialog {
+  z-index: 1056 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}
 
-  .form-control {
-    border: 1px solid var(--verde-selva);
-    border-radius: 5px;
-  }
+.modal-content {
+  pointer-events: auto !important;
+}
 
-  .btn {
-    background-color: var(--amarillo-terroso);
-    color: var(--azul-profundo);
-    font-weight: bold;
-    transition: all 0.3s ease;
-  }
+#loginModal .modal-header,
+#registroModal .modal-header,
+#contactoModal .modal-header {
+  background-color: var(--verde-selva);
+  color: white;
+}
 
-  .btn:hover {
-    background-color: var(--naranja-ardiente);
-    color: white;
-  }
+#loginModal .modal-content,
+#registroModal .modal-content,
+#contactoModal .modal-content {
+  border: 2px solid var(--verde-selva);
+  border-radius: 10px;
+  position: relative;
+}
+
+#loginModal .modal-body,
+#registroModal .modal-body,
+#contactoModal .modal-body {
+  background-color: var(--beige);
+}
+
+#loginModal .form-label,
+#registroModal .form-label,
+#contactoModal .form-label {
+  color: var(--azul-profundo);
+  font-weight: bold;
+}
+
+#loginModal .form-control,
+#registroModal .form-control,
+#contactoModal .form-control {
+  border: 1px solid var(--verde-selva);
+  border-radius: 5px;
+}
+
+#loginModal .btn,
+#registroModal .btn,
+#contactoModal .btn {
+  background-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#loginModal .btn:hover,
+#registroModal .btn:hover,
+#contactoModal .btn:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+}
+
+/* Estilos corregidos para los modales de registro e inicio de sesión */
+.modal-backdrop {
+  opacity: 0.5 !important; /* Reducir la opacidad del fondo */
+  z-index: 1040 !important; /* Asegurar que esté por debajo del modal */
+}
+
+.modal {
+  z-index: 1050 !important; /* Asegurar que el modal esté por encima del backdrop */
+}
+
+#loginModal .modal-header,
+#registroModal .modal-header,
+#contactoModal .modal-header {
+  background-color: var(--verde-selva);
+  color: white;
+}
+
+#loginModal .modal-content,
+#registroModal .modal-content,
+#contactoModal .modal-content {
+  border: 2px solid var(--verde-selva);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1055 !important; /* Aún más alto que el modal mismo */
+}
+
+#loginModal .modal-body,
+#registroModal .modal-body,
+#contactoModal .modal-body {
+  background-color: var(--beige);
+}
+
+#loginModal .form-label,
+#registroModal .form-label,
+#contactoModal .form-label {
+  color: var(--azul-profundo);
+  font-weight: bold;
+}
+
+#loginModal .form-control,
+#registroModal .form-control,
+#contactoModal .form-control {
+  border: 1px solid var(--verde-selva);
+  border-radius: 5px;
+}
+
+#loginModal .btn,
+#registroModal .btn,
+#contactoModal .btn {
+  background-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#loginModal .btn:hover,
+#registroModal .btn:hover,
+#contactoModal .btn:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
 }
 
 /* --- REFACTORIZACIÓN Y MEJORA RESPONSIVE DEL CARRUSEL --- */
