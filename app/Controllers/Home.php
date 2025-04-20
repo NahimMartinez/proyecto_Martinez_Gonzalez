@@ -43,4 +43,11 @@ class Home extends BaseController
         echo view("footer");
     }
     
+    public function a_producto(): void
+    {
+        echo view("header");
+        echo view("navbar");
+        echo view("producto");
+        echo view("footer");
+    }
 }
