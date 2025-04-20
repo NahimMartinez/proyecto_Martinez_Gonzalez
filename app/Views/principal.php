@@ -38,7 +38,7 @@
         <div class="carousel-caption">
           <h2 class="display-4">Equipamiento de pesca</h2>
           <p class="lead">¡Hasta 30% OFF en cañas de alta gama!</p>
-          <button class="btn btn-cta btn-lg">Ver Ofertas</button>
+          <button class="btn btn-cta btn-lg" onclick="location.href='#ofertas-relampago'">Ver Ofertas</button>
         </div>
       </div>
 
@@ -108,7 +108,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="card card-producto h-100">
               <span class="badge badge-oferta">3 cuotas sin interés</span>
               <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
@@ -240,7 +240,7 @@
 
 <!-- Sección Ofertas Relámpago -->
 
-<section class="container mb-5">
+<section id="ofertas-relampago" class="container mb-5">
   <h2 class="text-center mb-4">OFERTAS RELÁMPAGO</h2>
 
   <p class="text-muted text-center mb-4">
@@ -323,33 +323,6 @@
           <div class="card-action-container">
             <h4 class="text-danger">$120.999</h4>
             <small class="text-success d-block">3 cuotas sin interés</small>
-            <div class="btn-container">
-              <button class="btn btn-productos">Ver más</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2"
-          >Finaliza en 07:05:20</span
-        >
-
-        <img
-          src="assets/img/traje1.png"
-          class="card-img-top"
-          alt="Oferta"
-        />
-
-        <div class="card-body">
-          <div class="card-text-container">
-            <h5 class="card-title">Traje de pesca</h5>
-            <p class="card-text">Impermeable y super cómodo</p>
-          </div>
-          <div class="card-action-container">
-            <h4 class="text-danger">$49.899</h4>
-            <small class="text-success d-block">6 cuotas sin interés</small>
             <div class="btn-container">
               <button class="btn btn-productos">Ver más</button>
             </div>
