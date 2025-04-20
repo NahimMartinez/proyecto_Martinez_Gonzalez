@@ -409,6 +409,7 @@ section.carousel-section {
   .card-producto .card-body {
     position: relative;
     padding-bottom: 80px; /* Espacio extra al final para el botón */
+    min-height: 180px;
   }
 
   .card-producto .d-flex.justify-content-between.align-items-center {
@@ -688,12 +689,6 @@ section.carousel-section {
   margin-bottom: 0.25rem;
 }
 
-/* Ajuste para pantallas desktop */
-@media (min-width: 1200px) {
-  .card-producto .card-body {
-    min-height: 180px; /* Altura mínima fija para la tarjeta */
-  }
-}
 
 /* Asegurar que los botones estén dentro del contenedor */
 .card-producto .card-body {
