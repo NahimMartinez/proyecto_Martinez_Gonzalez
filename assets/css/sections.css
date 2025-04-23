@@ -1,0 +1,148 @@
+/* assets/css/sections.css */
+/* Estilos para secciones específicas del sitio */
+
+/* Estilos generales para secciones */
+section {
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background-color: var(--beige);
+}
+
+/* Títulos de las secciones */
+section h2 {
+  font-family: 'Caveat', cursive;
+  color: var(--verde-selva);
+  font-size: 2.3rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--verde-selva);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+/* Hover en las secciones - excluye la sección newsletter */
+section:not(.seccion-newsletter):hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  background-color: rgba(244, 236, 214, 0.9);
+}
+
+/* Listas dentro de las secciones */
+section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section ul li {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1rem;
+  color: var(--azul-profundo);
+}
+
+section ul li::before {
+  content: "\f058"; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--verde-selva);
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  font-size: 1.2rem;
+}
+
+/* Enlaces dentro de las secciones */
+section a {
+  color: var(--verde-selva);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+section a:hover {
+  color: var(--amarillo-terroso);
+}
+
+/* Párrafos */
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--azul-profundo);
+}
+
+/* Botones dentro de las secciones */
+section .btn {
+  background-color: var(--verde-selva);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Sección Newsletter */
+.seccion-newsletter {
+  background: var(--verde-selva);
+  padding: 2rem 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.seccion-newsletter .btn-cta {
+  background-color: var(--amarillo-terroso);
+  border: 2px solid var(--beige);
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.seccion-newsletter .btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.seccion-newsletter .texto-destacado {
+  color: var(--amarillo-terroso);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Sección sobre nosotros */
+section.mb-5.py-4 {
+  padding: 2rem;
+}
+
+/* Tarjeta de equipo */
+.team-card {
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.team-card:hover {
+  background: rgba(42, 92, 69, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Acordeón FAQ */
+.accordion-button {
+  background-color: var(--verde-selva);
+  color: white;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
+}
+
+.accordion-body {
+  background-color: var(--beige);
+  color: var(--azul-profundo);
+  border-left: 3px solid var(--verde-selva);
+  border-right: 3px solid var(--verde-selva);
+  border-bottom: 3px solid var(--verde-selva);
+}

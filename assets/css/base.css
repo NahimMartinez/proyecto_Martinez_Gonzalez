@@ -1,0 +1,54 @@
+/* assets/css/base.css */
+/* Estilos base para todo el sitio */
+
+body {
+  background-color: var(--beige);
+}
+
+/* Clases de utilidad para textos */
+.text-verde-selva { color: var(--verde-selva); }
+.text-azul-profundo { color: var(--azul-profundo); }
+.text-marron-tierra { color: var(--marron-tierra); }
+
+/* Clases de utilidad para bordes */
+.border-verde-selva { border-color: var(--verde-selva) !important; }
+
+/* Clases de utilidad para fondos */
+.bg-azul-profundo { background-color: var(--azul-profundo); }
+
+/* Título principal y subtítulos con fuente handwriting */
+h1.titulo-handwriting, h3.titulo-handwriting {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1.titulo-handwriting {
+  font-size: 3rem;
+}
+
+h3.titulo-handwriting {
+  font-size: 2.2rem;
+}
+
+/* Eliminar sombras de los contenedores */
+section, div, .card, .card-producto, .bg-light {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+/* Botón principal CTA - usado en varios lugares */
+.btn-cta {
+  background-color: var(--amarillo-terroso);
+  border: 2px solid var(--azul-profundo);
+  font-weight: bold;
+  color: var(--azul-profundo);
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+}

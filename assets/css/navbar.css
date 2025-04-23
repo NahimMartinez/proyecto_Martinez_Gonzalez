@@ -1,0 +1,40 @@
+/* assets/css/navbar.css */
+/* Estilos para la barra de navegación */
+
+.navbar-custom {
+  background: linear-gradient(to right, var(--verde-selva) 30%, var(--azul-profundo));
+  border-bottom: 3px solid var(--amarillo-terroso);
+}
+
+.promo-envio {
+  color: var(--amarillo-terroso);
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Espaciador para compensar el navbar fijo */
+.navbar-spacer {
+  height: 80px;
+}
+
+/* Estilos para el título del logo */
+.navbar-brand {
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Mejoras a la distribución de las pestañas */
+.nav-spacing .nav-item {
+  margin: 0 0.3rem;
+}
+
+.nav-spacing .nav-link {
+  padding: 0.4rem 0.6rem;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.nav-spacing .nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+}

@@ -1,0 +1,75 @@
+/* assets/css/modals.css */
+/* Estilos para todos los modales del sitio */
+
+/* Configuración general de modales */
+.modal {
+  z-index: 1055 !important;
+}
+
+.modal-backdrop {
+  opacity: 0.5 !important;
+  z-index: 1040 !important;
+}
+
+.modal-dialog {
+  z-index: 1056 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}
+
+.modal-content {
+  pointer-events: auto !important;
+}
+
+/* Estilos compartidos para todos los modales de login, registro y contacto */
+#loginModal .modal-header,
+#registroModal .modal-header,
+#contactoModal .modal-header {
+  background-color: var(--verde-selva);
+  color: white;
+}
+
+#loginModal .modal-content,
+#registroModal .modal-content,
+#contactoModal .modal-content {
+  border: 2px solid var(--verde-selva);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1055 !important;
+}
+
+#loginModal .modal-body,
+#registroModal .modal-body,
+#contactoModal .modal-body {
+  background-color: var(--beige);
+}
+
+#loginModal .form-label,
+#registroModal .form-label,
+#contactoModal .form-label {
+  color: var(--azul-profundo);
+  font-weight: bold;
+}
+
+#loginModal .form-control,
+#registroModal .form-control,
+#contactoModal .form-control {
+  border: 1px solid var(--verde-selva);
+  border-radius: 5px;
+}
+
+#loginModal .btn,
+#registroModal .btn,
+#contactoModal .btn {
+  background-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#loginModal .btn:hover,
+#registroModal .btn:hover,
+#contactoModal .btn:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+}

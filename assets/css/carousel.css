@@ -1,0 +1,82 @@
+/* assets/css/carousel.css */
+/* Estilos para todos los carruseles del sitio */
+
+/* Configuración base para carruseles */
+#mainCarousel, 
+#mainCarousel .carousel-inner, 
+#mainCarousel .carousel-item,
+.carousel-item {
+  background-color: var(--beige);
+}
+
+section.carousel-section {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Mejorar transiciones evitando flashes blancos */
+.carousel-item {
+  transition: transform 0.6s ease-in-out !important;
+}
+
+.carousel-inner {
+  background-color: var(--beige) !important;
+  overflow: visible !important;
+  height: 100% !important;
+}
+
+.carousel-item.active,
+.carousel-item-start,
+.carousel-item-end, 
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+  background-color: var(--beige) !important;
+}
+
+/* Transiciones para fade */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transform: none;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+  transform: none;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  opacity: 0;
+  transform: none;
+}
+
+/* Controles de navegación del carrusel */
+.carousel-control-prev, 
+.carousel-control-next {
+  width: 10%;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+}
+
+/* Estilos para el texto en carruseles */
+.carousel-caption h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}

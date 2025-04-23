@@ -1,0 +1,125 @@
+/* assets/css/cards.css */
+/* Estilos para las tarjetas de productos */
+
+/* Configuración general de la tarjeta de producto */
+.card-producto {
+  position: relative;
+  border: 2px solid var(--azul-profundo);
+  transition: transform 0.3s;
+  height: 450px; 
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-producto:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagen del producto */
+.card-producto .card-img-top {
+  height: 225px;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Cuerpo de la tarjeta */
+.card-producto .card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+/* Contenedor para título y descripción */
+.card-producto .card-text-container {
+  margin-bottom: 0.5rem;
+}
+
+.card-producto .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-producto .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Contenedor para precios */
+.card-producto .card-action-container {
+  margin-top: auto;
+}
+
+/* Estilos para el precio */
+.card-producto h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card-producto h4.text-success, 
+.card-producto h4.text-danger {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card-producto small.text-success {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Posicionamiento de botones y precios */
+.card-producto .d-flex.justify-content-between.align-items-center {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  right: 15px;
+  width: calc(100% - 30px);
+}
+
+/* Contenedor del botón */
+.card-producto .btn-container {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/* Botón específico de productos */
+.btn-productos {
+  font-size: 0.95rem !important;
+  padding: 0.5rem 1.2rem !important;
+  font-weight: 600 !important;
+  border-width: 2px !important;
+  border-color: var(--verde-selva) !important;
+  color: white !important; 
+  background-color: var(--verde-selva) !important;
+  border-radius: 5px !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  min-width: 100px !important;
+  text-align: center !important;
+}
+
+.btn-productos:hover {
+  background-color: var(--naranja-ardiente) !important;
+  border-color: var(--naranja-ardiente) !important;
+  color: white !important;
+  transform: translateY(-3px) !important;
+}
+
+/* Estilizado para ofertas */
+.badge-oferta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--naranja-ardiente);
+}

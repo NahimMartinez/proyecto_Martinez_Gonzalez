@@ -1,0 +1,46 @@
+/* assets/css/footer.css */
+/* Estilos para el footer del sitio */
+
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--amarillo-terroso);
+  text-decoration: underline;
+}
+
+/* Íconos de redes sociales */
+footer .fab {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .fab:hover {
+  transform: scale(1.2);
+  color: var(--amarillo-terroso);
+}
+
+/* Botón de contacto */
+footer .btn-cta {
+  background-color: var(--amarillo-terroso);
+  border: 2px solid white;
+  color: var(--azul-profundo);
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+footer .btn-cta:hover {
+  background-color: var(--naranja-ardiente);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Logos de métodos de pago */
+.logo-hover {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
