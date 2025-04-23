@@ -108,7 +108,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row g-4">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card card-producto h-100">
               <span class="badge badge-oferta">3 cuotas sin interés</span>
               <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
@@ -127,24 +127,24 @@
             </div>
           </div>
           <div class="col-md-4">
-          <a href="<?= base_url('producto') ?>" class="card-link">
-          <div class="card card-producto h-100">
-            <span class="badge badge-oferta">6 cuotas sin interés</span>
-            <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
-            <div class="card-body">
-              <div class="card-text-container">
-                <h5 class="card-title">Caña completa</h5>
-                <p class="card-text">Material: fibra de vidrio</p>
-              </div>
-              <div class="card-action-container">
-                <h4 class="text-success">$50.500</h4>
-                <div class="btn-container">
-                  <button class="btn btn-productos">Ver más</button>
+            <a href="<?= base_url('producto') ?>" class="card-link">
+              <div class="card card-producto h-100">
+                <span class="badge badge-oferta">6 cuotas sin interés</span>
+                <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
+                <div class="card-body">
+                  <div class="card-text-container">
+                    <h5 class="card-title">Caña completa</h5>
+                    <p class="card-text">Material: fibra de vidrio</p>
+                  </div>
+                  <div class="card-action-container">
+                    <h4 class="text-success">$50.500</h4>
+                    <div class="btn-container">
+                      <button class="btn btn-productos">Ver más</button>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </a>
+            </a>
           </div>
           <div class="col-md-4">
             <div class="card card-producto h-100">
