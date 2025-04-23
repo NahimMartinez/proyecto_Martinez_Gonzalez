@@ -1,27 +1,45 @@
 /* assets/css/navbar.css */
-/* Estilos para la barra de navegación */
+/* Estilos base para la barra de navegación */
 
 .navbar-custom {
   background: linear-gradient(to right, var(--verde-selva) 30%, var(--azul-profundo));
   border-bottom: 3px solid var(--amarillo-terroso);
+  width: 100% !important;
+  padding: 0.25rem 0.75rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* Espaciador para compensar el navbar fijo */
+.navbar-spacer {
+  height: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+/* Elementos de la barra de navegación */
+.navbar-brand-wrapper {
+  padding: 0.25rem 0;
+  z-index: 1;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-right: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Fuente handwriting para el título */
+.handwriting-font {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* Promoción de envío */
 .promo-envio {
   color: var(--amarillo-terroso);
   font-weight: bold;
   margin-left: 1rem;
   font-size: 0.9rem;
-}
-
-/* Espaciador para compensar el navbar fijo */
-.navbar-spacer {
-  height: 80px;
-}
-
-/* Estilos para el título del logo */
-.navbar-brand {
-  flex-direction: row;
-  align-items: center;
 }
 
 /* Mejoras a la distribución de las pestañas */
@@ -37,4 +55,27 @@
 
 .nav-spacing .nav-link:hover {
   background-color: rgba(255,255,255,0.1);
+}
+
+/* Animaciones */
+@keyframes highlight-fade {
+  0% { color: #FFEB3B; text-shadow: 1px 1px 1px #000; }
+  50% { color: #FFF176; text-shadow: 0 0 5px #FFF59D, 0 0 10px #FFD600; }
+  100% { color: #FFEB3B; text-shadow: 1px 1px 1px #000; }
+}
+
+@keyframes shipping-move {
+  0% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  100% { transform: translateX(-2px); }
+}
+
+/* Aplicación de animaciones */
+.highlight-fade {
+  animation: highlight-fade 3s ease-in-out infinite;
+}
+
+.highlight-fade .fas.fa-shipping-fast {
+  display: inline-block;
+  animation: shipping-move 2s infinite;
 }
