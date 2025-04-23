@@ -68,7 +68,12 @@
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Nombre completo" required />
+                            <input type="text" 
+                            class="form-control" 
+                            pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" 
+                            title="El nombre no puede contener números ni caracteres especiales"  
+                            placeholder="Nombre completo" 
+                            required />
                         </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" placeholder="Correo electrónico" required />
