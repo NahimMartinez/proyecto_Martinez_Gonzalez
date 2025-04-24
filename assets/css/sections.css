@@ -177,8 +177,7 @@ section.mb-5.py-4 {
 /* Secciones con efecto paralaje */
 .seccion-paralaje {
   height: 400px;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
