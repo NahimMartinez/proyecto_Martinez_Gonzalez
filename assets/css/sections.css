@@ -6,15 +6,16 @@ section {
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
-  background-color: var(--beige);
+  background: var(--gradiente-secciones);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) !important;
 }
 
 /* Títulos de las secciones */
 section h2 {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-titulos);
   color: var(--verde-selva);
-  font-size: 2.3rem;
-  font-weight: 700;
+  font-size: var(--size-titulo-seccion);
+  font-weight: var(--weight-bold);
   border-bottom: 2px solid var(--verde-selva);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -38,8 +39,9 @@ section ul li {
   margin-bottom: 1rem;
   padding-left: 2rem;
   position: relative;
-  font-size: 1rem;
+  font-size: var(--size-texto-normal);
   color: var(--azul-profundo);
+  font-family: var(--font-cuerpo);
 }
 
 section ul li::before {
@@ -58,6 +60,7 @@ section a {
   color: var(--verde-selva);
   text-decoration: underline;
   transition: color 0.3s ease;
+  font-family: var(--font-cuerpo);
 }
 
 section a:hover {
@@ -66,9 +69,10 @@ section a:hover {
 
 /* Párrafos */
 section p {
-  font-size: 1rem;
+  font-size: var(--size-texto-normal);
   line-height: 1.6;
   color: var(--azul-profundo);
+  font-family: var(--font-cuerpo);
 }
 
 /* Botones dentro de las secciones */
@@ -79,21 +83,28 @@ section .btn {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  font-family: var(--font-cuerpo);
+  font-weight: var(--weight-medium);
 }
 
 /* Sección Newsletter */
 .seccion-newsletter {
-  background: var(--verde-selva);
+  background: var(--gradiente-footer);
   padding: 2rem 0;
   margin-bottom: 0;
   border-radius: 0;
+}
+
+.seccion-newsletter h3 {
+  font-family: var(--font-titulos);
+  font-size: var(--size-subtitulo);
 }
 
 .seccion-newsletter .btn-cta {
   background-color: var(--amarillo-terroso);
   border: 2px solid var(--beige);
   color: var(--azul-profundo);
-  font-weight: bold;
+  font-weight: var(--weight-bold);
   transition: all 0.3s ease;
 }
 
@@ -106,13 +117,15 @@ section .btn {
 .seccion-newsletter .texto-destacado {
   color: var(--amarillo-terroso);
   font-style: italic;
-  font-weight: 500;
+  font-weight: var(--weight-medium);
   letter-spacing: 0.5px;
+  font-family: var(--font-destacado);
 }
 
 /* Sección sobre nosotros */
 section.mb-5.py-4 {
   padding: 2rem;
+  background: var(--gradiente-principal);
 }
 
 /* Tarjeta de equipo */
@@ -120,11 +133,21 @@ section.mb-5.py-4 {
   transition: all 0.3s ease;
   padding: 1.5rem;
   border-radius: 15px;
+  background: var(--gradiente-cards);
 }
 
 .team-card:hover {
-  background: rgba(42, 92, 69, 0.1);
+  background: var(--gradiente-destacado);
   transform: translateY(-5px);
+}
+
+.team-card h4 {
+  font-family: var(--font-subtitulos);
+  font-size: 1.8rem;
+}
+
+.team-card p {
+  font-family: var(--font-cuerpo);
 }
 
 /* Acordeón FAQ */
@@ -132,6 +155,9 @@ section.mb-5.py-4 {
   background-color: var(--verde-selva);
   color: white;
   border: none;
+  font-family: var(--font-subtitulos);
+  font-size: 1.3rem;
+  font-weight: var(--weight-medium);
 }
 
 .accordion-button:not(.collapsed) {
@@ -145,4 +171,71 @@ section.mb-5.py-4 {
   border-left: 3px solid var(--verde-selva);
   border-right: 3px solid var(--verde-selva);
   border-bottom: 3px solid var(--verde-selva);
+  font-family: var(--font-cuerpo);
+}
+
+/* Secciones con efecto paralaje */
+.seccion-paralaje {
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 3rem 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.seccion-paralaje .contenido-paralaje {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.seccion-paralaje .contenido-paralaje h3 {
+  font-family: var(--font-titulos);
+  font-size: var(--size-titulo-seccion);
+  margin-bottom: 1rem;
+  color: var(--beige);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.seccion-paralaje .contenido-paralaje p {
+  font-size: var(--size-texto-grande);
+  margin-bottom: 1.5rem;
+  color: white;
+  font-family: var(--font-destacado);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.seccion-paralaje .btn-transparente {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+  font-family: var(--font-subtitulos);
+  font-weight: var(--weight-medium);
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.seccion-paralaje .btn-transparente:hover {
+  background-color: var(--amarillo-terroso);
+  border-color: var(--amarillo-terroso);
+  color: var(--azul-profundo);
+  transform: translateY(-3px);
+}
+
+/* Elimina la transformación en hover para secciones de paralaje */
+.seccion-paralaje:hover {
+  transform: none;
+  background-color: transparent;
 }

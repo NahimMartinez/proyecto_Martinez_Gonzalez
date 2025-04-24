@@ -1,8 +1,55 @@
 /* assets/css/base.css */
 /* Estilos base para todo el sitio */
 
+/* Importar las fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&family=Fjalla+One&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Teko:wght@300;400;500;600;700&display=swap');
+
+/* Estilo base para el cuerpo de la página */
 body {
-  background-color: var(--beige);
+  background: var(--gradiente-principal);
+  background-attachment: fixed;
+  font-family: var(--font-cuerpo);
+  font-weight: var(--weight-regular);
+  line-height: 1.6;
+  color: var(--azul-profundo);
+}
+
+/* Estilos para todos los títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-titulos);
+  font-weight: var(--weight-bold);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: var(--verde-selva);
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: var(--size-titulo-principal);
+}
+
+h2 {
+  font-size: var(--size-titulo-seccion);
+}
+
+h3 {
+  font-size: var(--size-subtitulo);
+}
+
+/* Subtítulos y elementos destacados */
+.subtitulo, .texto-destacado {
+  font-family: var(--font-subtitulos);
+  font-weight: var(--weight-medium);
+}
+
+.texto-destacado {
+  font-size: var(--size-texto-grande);
+}
+
+/* Estilos para párrafos */
+p {
+  margin-bottom: 1rem;
+  font-size: var(--size-texto-normal);
 }
 
 /* Clases de utilidad para textos */
@@ -18,17 +65,31 @@ body {
 
 /* Título principal y subtítulos con fuente handwriting */
 h1.titulo-handwriting, h3.titulo-handwriting {
-  font-family: 'Caveat', cursive;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-family: var(--font-titulos);
+  font-weight: var(--weight-bold);
+  letter-spacing: 2px;
 }
 
 h1.titulo-handwriting {
-  font-size: 3rem;
+  font-size: var(--size-titulo-principal);
 }
 
 h3.titulo-handwriting {
-  font-size: 2.2rem;
+  font-size: var(--size-subtitulo);
+}
+
+/* Clase para texto aventurero */
+.texto-aventura {
+  font-family: var(--font-destacado);
+  font-size: var(--size-texto-grande);
+  letter-spacing: 0.5px;
+}
+
+/* Botones con estilo personalizado */
+.btn {
+  font-family: var(--font-cuerpo);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.5px;
 }
 
 /* Eliminar sombras de los contenedores */
@@ -42,7 +103,7 @@ section, div, .card, .card-producto, .bg-light {
 .btn-cta {
   background-color: var(--amarillo-terroso);
   border: 2px solid var(--azul-profundo);
-  font-weight: bold;
+  font-weight: var(--weight-bold);
   color: var(--azul-profundo);
   transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
 }
@@ -51,4 +112,13 @@ section, div, .card, .card-producto, .bg-light {
   background-color: var(--naranja-ardiente);
   color: white;
   transform: translateY(-3px);
+}
+
+/* Enlaces con estilo */
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
 }

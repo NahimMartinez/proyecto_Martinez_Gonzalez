@@ -5,15 +5,18 @@
 .card-producto {
   position: relative;
   border: 2px solid var(--azul-profundo);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
   height: 450px; 
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  background: var(--gradiente-cards);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05) !important;
 }
 
 .card-producto:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Imagen del producto */
@@ -35,6 +38,7 @@
   flex: 1;
   position: relative;
   padding-bottom: 80px;
+  font-family: var(--font-cuerpo);
 }
 
 /* Contenedor para título y descripción */
@@ -43,13 +47,16 @@
 }
 
 .card-producto .card-title {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-family: var(--font-subtitulos);
+  font-size: 1.2rem;
+  font-weight: var(--weight-bold);
   margin-bottom: 0.5rem;
+  color: var(--verde-selva);
 }
 
 .card-producto .card-text {
-  font-size: 0.9rem;
+  font-family: var(--font-cuerpo);
+  font-size: var(--size-texto-normal);
   margin-bottom: 0.5rem;
 }
 
@@ -60,21 +67,25 @@
 
 /* Estilos para el precio */
 .card-producto h4 {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-family: var(--font-destacado);
+  font-size: 1.5rem;
+  font-weight: var(--weight-medium);
   margin-bottom: 0;
+  letter-spacing: 0.5px;
 }
 
 .card-producto h4.text-success, 
 .card-producto h4.text-danger {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: var(--weight-bold);
   margin-bottom: 0.25rem;
 }
 
 .card-producto small.text-success {
   margin-bottom: 0.5rem;
   display: block;
+  font-family: var(--font-cuerpo);
+  font-style: italic;
 }
 
 /* Posicionamiento de botones y precios */
@@ -95,9 +106,10 @@
 
 /* Botón específico de productos */
 .btn-productos {
+  font-family: var(--font-cuerpo);
   font-size: 0.95rem !important;
   padding: 0.5rem 1.2rem !important;
-  font-weight: 600 !important;
+  font-weight: var(--weight-bold) !important;
   border-width: 2px !important;
   border-color: var(--verde-selva) !important;
   color: white !important; 
@@ -107,6 +119,7 @@
   display: inline-block !important;
   min-width: 100px !important;
   text-align: center !important;
+  letter-spacing: 0.5px;
 }
 
 .btn-productos:hover {
@@ -122,4 +135,6 @@
   top: 10px;
   right: 10px;
   background: var(--naranja-ardiente);
+  font-family: var(--font-destacado);
+  letter-spacing: 0.5px;
 }

@@ -2,10 +2,39 @@
 /* Variables globales para todo el sitio */
 
 :root {
+  /* Colores */
   --verde-selva: #2A5C45;
   --amarillo-terroso: #D4A418;
   --naranja-ardiente: #E67E22;
   --azul-profundo: #2C3E50;
   --marron-tierra: #5D4037;
   --beige: #F4ECD6;
+  
+  /* Gradientes */
+  --gradiente-principal: linear-gradient(135deg, var(--beige) 0%, #f7f0dc 50%, #ece0c0 100%);
+  --gradiente-secciones: linear-gradient(160deg, #f7f0dc 0%, #f4ecd6 60%, #ece0c0 100%);
+  --gradiente-cards: linear-gradient(180deg, #f9f5e9 0%, var(--beige) 100%);
+  --gradiente-destacado: linear-gradient(135deg, rgba(42,92,69,0.1) 0%, rgba(212,164,24,0.1) 100%);
+  --gradiente-navbar: linear-gradient(90deg, var(--verde-selva) 0%, #224938 100%);
+  --gradiente-footer: linear-gradient(180deg, var(--azul-profundo) 0%, #243140 100%);
+  
+  /* Tipografía - Nuevas selecciones de fuentes */
+  --font-titulos: 'Oswald', 'Roboto Condensed', sans-serif; /* Fuente fuerte y clara para títulos */
+  --font-subtitulos: 'Fjalla One', 'Teko', sans-serif; /* Fuente audaz para subtítulos */
+  --font-cuerpo: 'Poppins', 'Open Sans', sans-serif; /* Fuente limpia para cuerpos de texto */
+  --font-destacado: 'Barlow Semi Condensed', sans-serif; /* Para elementos destacados */
+  
+  /* Tamaños de fuente */
+  --size-titulo-principal: 3.5rem;
+  --size-titulo-seccion: 2.8rem;
+  --size-subtitulo: 2rem;
+  --size-texto-grande: 1.2rem;
+  --size-texto-normal: 1rem;
+  --size-texto-pequeño: 0.9rem;
+  
+  /* Pesos de fuente */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
 }

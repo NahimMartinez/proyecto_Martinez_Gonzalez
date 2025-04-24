@@ -97,7 +97,7 @@
   </div>
 </section>
 
-<!-- Sección Destacados -->
+<!-- Sección Productos Destacados -->
 <section class="container mb-5">
   <h2 class="text-center mb-4">PRODUCTOS DESTACADOS</h2>
   <p class="text-muted text-center mb-4">
@@ -238,6 +238,15 @@
   </div>
 </section>
 
+<!-- Primera sección con efecto paralaje -->
+<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/paralaje1.png') ?>');">
+  <div class="contenido-paralaje">
+    <h3>Experiencias únicas en la naturaleza</h3>
+    <p>Descubre nuestros productos de alta calidad para tus aventuras al aire libre</p>
+    <a href="#" class="btn btn-transparente">Explorar equipamiento</a>
+  </div>
+</section>
+
 <!-- Sección Ofertas Relámpago -->
 
 <section id="ofertas-relampago" class="container mb-5">
@@ -330,6 +339,15 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Segunda sección con efecto paralaje -->
+<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/paralaje2.png') ?>');">
+  <div class="contenido-paralaje">
+    <h3>Conecta con la naturaleza</h3>
+    <p>El mejor equipamiento para tus expediciones de pesca y aventura</p>
+    <a href="#" class="btn btn-transparente">Ver colección</a>
   </div>
 </section>
 
