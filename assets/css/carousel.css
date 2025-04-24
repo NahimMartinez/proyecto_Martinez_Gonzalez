@@ -21,7 +21,7 @@ section.carousel-section {
 
 .carousel-inner {
   background-color: var(--beige) !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   height: 100% !important;
 }
 
