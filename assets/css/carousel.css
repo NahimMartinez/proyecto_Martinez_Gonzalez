@@ -12,16 +12,13 @@
 section.carousel-section {
   padding: 0 !important;
   margin: 0 !important;
-}
-
-/* Mejorar transiciones evitando flashes blancos */
-.carousel-item {
-  transition: transform 0.6s ease-in-out !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .carousel-inner {
   background-color: var(--beige) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   height: 100% !important;
 }
 
