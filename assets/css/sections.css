@@ -188,8 +188,9 @@ section.mb-5.py-4 {
   align-items: center;
   justify-content: center;
   border-radius: 0;
+  transition: none !important;
+  transform: none !important;
 }
-
 .seccion-paralaje .contenido-paralaje {
   text-align: center;
   color: white;
@@ -231,11 +232,10 @@ section.mb-5.py-4 {
   background-color: var(--amarillo-terroso);
   border-color: var(--amarillo-terroso);
   color: var(--azul-profundo);
-  transform: translateY(-3px);
 }
 
 /* Elimina la transformación en hover para secciones de paralaje */
 .seccion-paralaje:hover {
-  transform: none;
-  background-color: transparent;
+  transform: none !important;
+  background-color: transparent !important;
 }
