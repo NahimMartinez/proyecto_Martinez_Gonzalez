@@ -127,24 +127,55 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre completo</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="password" placeholder="Crea una contraseña" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirma tu contraseña" required>
-                    </div>
-                    <button type="submit" class="btn btn-cta w-100">Registrarse</button>
-                </form>
+                  <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre completo</label>
+                      <input
+                          type="text"
+                          class="form-control"
+                          id="nombre"
+                          placeholder="Ingresa tu nombre completo"
+                          pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+                          title="El nombre no puede contener números ni caracteres especiales"
+                          required
+                      >
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Correo electrónico</label>
+                      <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Ingresa tu correo electrónico"
+                          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                          title="Por favor, ingresa un correo electrónico válido (ejemplo: usuario@dominio.com)"
+                          required
+                      >
+                  </div>
+                  <div class="mb-3">
+                      <label for="password" class="form-label">Contraseña</label>
+                      <input
+                          type="password"
+                          class="form-control"
+                          id="password"
+                          placeholder="Crea una contraseña"
+                          pattern="(?=.*\d)[A-Za-z\d]{8,}"
+                          title="La contraseña debe tener al menos 8 caracteres y contener al menos un número"
+                          required
+                      >
+                  </div>
+                  <div class="mb-3">
+                      <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
+                      <input
+                          type="password"
+                          class="form-control"
+                          id="confirmPassword"
+                          placeholder="Confirma tu contraseña"
+                          title="Por favor, confirma tu contraseña"
+                          required
+                      >
+                  </div>
+                  <button type="submit" class="btn btn-cta w-100">Registrarse</button>
+              </form>
             </div>
             <div class="modal-footer">
                 <p class="text-center w-100">¿Ya tienes una cuenta? <a href="#" class="text-verde-selva" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión</a></p>
@@ -163,14 +194,34 @@
             </div>
             <div class="modal-body">
                 <form>
+                    <!-- Validación del correo electrónico -->
                     <div class="mb-3">
                         <label for="loginEmail" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="loginEmail" placeholder="Ingresa tu correo electrónico" required>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="loginEmail"
+                            placeholder="Ingresa tu correo electrónico"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            title="Por favor, ingresa un correo electrónico válido (ejemplo: usuario@dominio.com)"
+                            required
+                        >
                     </div>
+
+                    <!-- Validación de la contraseña -->
                     <div class="mb-3">
                         <label for="loginPassword" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="loginPassword" placeholder="Ingresa tu contraseña" required>
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="loginPassword"
+                            placeholder="Ingresa tu contraseña"
+                            pattern=".{8,}"
+                            title="La contraseña debe tener al menos 8 caracteres"
+                            required
+                        >
                     </div>
+
                     <button type="submit" class="btn btn-cta w-100">Iniciar Sesión</button>
                 </form>
             </div>
