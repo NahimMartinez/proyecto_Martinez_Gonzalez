@@ -15,4 +15,5 @@
             </p>
         </div>
     </section>
+    <?php include 'ubicacionHorarios.php'; ?>
 </main>

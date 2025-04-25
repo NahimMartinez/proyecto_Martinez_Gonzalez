@@ -1,0 +1,60 @@
+CRITICAL - 2025-04-25 19:37:37 --> ErrorException: include(partials/ubicacion_horarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\principal.php on line 354.
+ 1 APPPATH\Views\principal.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/ubicacion_horarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php', 354)
+ 2 APPPATH\Views\principal.php(354): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-25 19:38:45 --> ErrorException: include(ubicacion_horarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\principal.php on line 354.
+ 1 APPPATH\Views\principal.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacion_horarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php', 354)
+ 2 APPPATH\Views\principal.php(354): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-25 19:38:47 --> ErrorException: include(ubicacion_horarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\principal.php on line 354.
+ 1 APPPATH\Views\principal.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacion_horarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php', 354)
+ 2 APPPATH\Views\principal.php(354): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-25 19:38:55 --> ErrorException: include(/ubicacion_horarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\principal.php on line 354.
+ 1 APPPATH\Views\principal.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/ubicacion_horarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php', 354)
+ 2 APPPATH\Views\principal.php(354): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
