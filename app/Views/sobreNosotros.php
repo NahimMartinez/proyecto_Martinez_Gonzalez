@@ -10,10 +10,11 @@
                     </h2>
                     <p class="lead">Nacidos entre los esteros y selvas de Corrientes en 2012</p>
                     <p>Fundada por los hermanos Guaraní, descendientes de pescadores del Río Paraná, Yaguareté Camp nace de la pasión por preservar las tradiciones de pesca sustentable y el ecoturismo responsable. Nuestro nombre rinde homenaje al majestuoso yaguareté, símbolo de la fauna correntina.</p>
-                    <div class="bg-azul-profundo text-white p-4 rounded">
-                        <h4><i class="fas fa-water me-2"></i>Raíces Esterinas</h4>
-                        <p>Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad.</p>
-                    </div>
+                    <h2 class="display-4 mb-4 text-verde-selva">
+                        <i class="fas fa-water me-3"></i>Raíces Esterinas
+                    </h2>
+                    <p>Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad. Creemos firmemente en la importancia de preservar los recursos naturales para las generaciones futuras.</p>
+                    <p>En colaboración con organizaciones ambientales, hemos desarrollado programas educativos para enseñar prácticas de pesca responsable y la importancia de mantener los hábitats acuáticos saludables. Estas iniciativas no solo benefician a la fauna local, sino que también fortalecen las economías de las comunidades que dependen de estos recursos.</p>
                 </div>
             </div>
         </section>
