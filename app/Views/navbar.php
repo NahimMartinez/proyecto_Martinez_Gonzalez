@@ -42,20 +42,7 @@
                   Productos
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li class="dropdown-header">Cañas de Pesca</li>
-                  <li><a class="dropdown-item" href="#">Spinning</a></li>
-                  <li><a class="dropdown-item" href="#">Baitcasting</a></li>
-                  <li><a class="dropdown-item" href="#">Telescópicas</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li class="dropdown-header">Camping</li>
-                  <li><a class="dropdown-item" href="#">Tiendas</a></li>
-                  <li><a class="dropdown-item" href="#">Sacos de dormir</a></li>
-                  <li><a class="dropdown-item" href="#">Iluminación</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li class="dropdown-header">Vestimenta</li>
-                  <li><a class="dropdown-item" href="#">Ropa técnica</a></li>
-                  <li><a class="dropdown-item" href="#">Calzado</a></li>
-                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                  <li><a class="dropdown-item" href="#">PROXIMAMENTE</a></li>     
                 </ul>
               </li>
 
@@ -126,7 +113,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form onsubmit="return validarContrasenas()">
                   <div class="mb-3">
                       <label for="nombre" class="form-label">Nombre completo</label>
                       <input
@@ -146,8 +133,8 @@
                           class="form-control"
                           id="email"
                           placeholder="Ingresa tu correo electrónico"
-                          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                          title="Por favor, ingresa un correo electrónico válido (ejemplo: usuario@dominio.com)"
+                          pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" 
+                          title="Por favor, ingresa un correo válido"
                           required
                       >
                   </div>
@@ -202,8 +189,8 @@
                             class="form-control"
                             id="loginEmail"
                             placeholder="Ingresa tu correo electrónico"
-                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                            title="Por favor, ingresa un correo electrónico válido (ejemplo: usuario@dominio.com)"
+                            pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" 
+                            title="Por favor, ingresa un correo válido"
                             required
                         >
                     </div>
@@ -230,4 +217,16 @@
             </div>
         </div>
     </div>
+    <script>    
+        function validarContrasenas() {
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+
+        if (password !== confirmPassword) {
+            alert('Las contraseñas no coinciden. Por favor, verifica.');
+            return false; 
+        }
+        return true; 
+        }
+    </script>
 </div>

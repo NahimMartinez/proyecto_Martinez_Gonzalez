@@ -76,7 +76,12 @@
                             required />
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Correo electrónico" required />
+                            <input type="email" 
+                            class="form-control" 
+                            placeholder="Correo electrónico" 
+                            pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" 
+                            title="Por favor, ingresa un correo válido"
+                            required />
                         </div>
                         <div class="mb-3">
                             <input type="text" class="form-control" placeholder="Asunto" />

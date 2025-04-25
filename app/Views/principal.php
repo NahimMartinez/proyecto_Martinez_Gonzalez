@@ -414,8 +414,12 @@
           <input
             type="email"
             class="form-control"
-            placeholder="tucorreo@ejemplo.com"
-          />
+            id="email"
+            placeholder="Ingresa tu correo electrónico"
+            pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" 
+            title="Por favor, ingresa un correo válido"
+            required
+          >
           <button class="btn btn-cta">Suscribirse</button>
         </form>
       </div>
