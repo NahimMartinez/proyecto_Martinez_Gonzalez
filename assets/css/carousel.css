@@ -4,20 +4,27 @@
 /* Configuración base para carruseles */
 #mainCarousel, 
 #mainCarousel .carousel-inner, 
-#mainCarousel .carousel-item,
-.carousel-item {
+#mainCarousel .carousel-item{
   background-color: var(--beige);
-  
+  overflow: hidden !important; /* Evita que el contenido desborde */
 }
 
 section.carousel-section {
   padding: 0 !important;
   margin: 0 !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .carousel-inner {
-  overflow: hidden !important; /* Evita que el contenido desborde */
+  overflow: visible !important; /* Evita que el contenido desborde */
   height: auto !important; /* Permite que la altura se ajuste automáticamente */
+}
+
+#productos-destacados {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
 }
 
 .carousel-item img {

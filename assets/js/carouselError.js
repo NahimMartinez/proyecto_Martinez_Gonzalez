@@ -8,3 +8,12 @@ document.addEventListener('scroll', () => {
       section.style.backgroundPosition = `center ${yPos}px`;
     });
   });
+  const carousel = document.getElementById('featuredProductsCarousel');
+
+  carousel.addEventListener('mouseenter', () => {
+    document.body.classList.add('no-scroll');
+  });
+  
+  carousel.addEventListener('mouseleave', () => {
+    document.body.classList.remove('no-scroll');
+  });

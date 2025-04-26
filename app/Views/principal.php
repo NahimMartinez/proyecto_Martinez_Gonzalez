@@ -96,15 +96,15 @@
     </button>
   </div>
 </section>
-
+<br>
 <!-- Sección Productos Destacados -->
-<section class="container mb-5">
+<section class="container mb-5" id="productos-destacados">
   <h2 class="text-center mb-4">PRODUCTOS DESTACADOS</h2>
   <p class="text-muted text-center mb-4">
     Los productos que arrasan en ventas
   </p>
 
-  <div id="featuredProductsCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="featuredProductsCarousel" class="carousel slide" data-bs-ride="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row g-4">
