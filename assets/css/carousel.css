@@ -7,20 +7,26 @@
 #mainCarousel .carousel-item,
 .carousel-item {
   background-color: var(--beige);
+  
 }
 
 section.carousel-section {
   padding: 0 !important;
   margin: 0 !important;
-  transform: none !important;
-  transition: none !important;
 }
 
 .carousel-inner {
-  background-color: var(--beige) !important;
-  overflow: visible !important;
-  height: 100% !important;
+  overflow: hidden !important; /* Evita que el contenido desborde */
+  height: auto !important; /* Permite que la altura se ajuste automáticamente */
 }
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Asegura que las imágenes se ajusten al contenedor */
+}
+
+
 
 .carousel-item.active,
 .carousel-item-start,
