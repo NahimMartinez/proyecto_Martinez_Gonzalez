@@ -105,7 +105,7 @@
   </p>
 
   <div class="row g-4">
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
         <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
@@ -123,7 +123,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <a href="<?= base_url('producto') ?>" class="card-link">
         <div class="card card-producto h-100">
           <span class="badge badge-oferta">6 cuotas sin interés</span>
@@ -143,7 +143,7 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
         <img src="assets/img/carpa1.png" class="card-img-top" alt="Carpa" />
@@ -161,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
         <img src="assets/img/carpa2.png" class="card-img-top" alt="Carpa" />
@@ -179,7 +179,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">6 cuotas sin interés</span>
         <img src="assets/img/bota1.png" class="card-img-top" alt="Caña" />
@@ -197,7 +197,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
         <img src="assets/img/mochila1.png" class="card-img-top" alt="Caña" />
@@ -235,21 +235,13 @@
   <p class="text-muted text-center mb-4">
     Los productos a precios inigualables
   </p>
-  <!-- ESTOS PRODUCTOS SOLO FUERON AÑADIDOS A MODO DE PRUEBA
-         PARA VISUALIZAR COMO SE VERAN -->
   <div class="row g-4">
-    <div class="col-md-3">
+    <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2"
-          >Finaliza en 07:05:20</span
-        >
-
-        <img
-          src="assets/img/remera1.png"
-          class="card-img-top"
-          alt="Oferta"
-        />
-
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
+          Finaliza en 07:05:20
+        </span>
+        <img src="assets/img/remera1.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Campera de pesca</h5>
@@ -265,18 +257,12 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2"
-          >Finaliza en 07:05:20</span
-        >
-
-        <img
-          src="assets/img/remera2.png"
-          class="card-img-top"
-          alt="Oferta"
-        />
-
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
+          Finaliza en 07:05:20
+        </span>
+        <img src="assets/img/remera2.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Campera camuflada</h5>
@@ -292,18 +278,12 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2"
-          >Finaliza en 07:05:20</span
-        >
-
-        <img
-          src="assets/img/carpa3.png"
-          class="card-img-top"
-          alt="Oferta"
-        />
-
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
+          Finaliza en 07:05:20
+        </span>
+        <img src="assets/img/carpa3.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Carpa completa</h5>
@@ -311,6 +291,27 @@
           </div>
           <div class="card-action-container">
             <h4 class="text-danger">$120.999</h4>
+            <small class="text-success d-block">3 cuotas sin interés</small>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card card-producto h-100">
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
+          Finaliza en 07:05:20
+        </span>
+        <img src="assets/img/caja1.png" class="card-img-top" alt="Oferta" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Caja de pesca Vintage</h5>
+            <p class="card-text">Capacidad: 15 litros</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-danger">$47.850</h4>
             <small class="text-success d-block">3 cuotas sin interés</small>
             <div class="btn-container">
               <button class="btn btn-productos">Ver más</button>
