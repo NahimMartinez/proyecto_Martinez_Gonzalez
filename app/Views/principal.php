@@ -238,7 +238,7 @@
   <div class="row g-4">
     <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-1">
           Finaliza en 07:05:20
         </span>
         <img src="assets/img/remera1.png" class="card-img-top" alt="Oferta" />
@@ -259,8 +259,8 @@
     </div>
     <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
-          Finaliza en 07:05:20
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-2">
+          Finaliza en 06:45:10
         </span>
         <img src="assets/img/remera2.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
@@ -280,8 +280,8 @@
     </div>
     <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
-          Finaliza en 07:05:20
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-3">
+          Finaliza en 05:30:00
         </span>
         <img src="assets/img/carpa3.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
@@ -301,8 +301,8 @@
     </div>
     <div class="col-6 col-md-3">
       <div class="card card-producto h-100">
-        <span class="badge bg-danger position-absolute top-0 end-0 m-2">
-          Finaliza en 07:05:20
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 " id="timer-4">
+          Finaliza en 04:15:50
         </span>
         <img src="assets/img/caja1.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
