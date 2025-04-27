@@ -104,137 +104,117 @@
     Los productos que arrasan en ventas
   </p>
 
-  <div id="featuredProductsCarousel" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card card-producto h-100">
-              <span class="badge badge-oferta">3 cuotas sin interés</span>
-              <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
-              <div class="card-body">
-                <div class="card-text-container">
-                  <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
-                  <p class="card-text">Resistencia: 150-300 gramos</p>
-                </div>
-                <div class="card-action-container">
-                  <h4 class="text-success">$37.500</h4>
-                  <div class="btn-container">
-                    <button class="btn btn-productos">Ver más</button>
-                  </div>
-                </div>
-              </div>
+  <div class="row g-4">
+    <div class="col-md-6 col-lg-4">
+      <div class="card card-producto h-100">
+        <span class="badge badge-oferta">3 cuotas sin interés</span>
+        <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
+            <p class="card-text">Resistencia: 150-300 gramos</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-success">$37.500</h4>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
             </div>
           </div>
-          <div class="col-md-4">
-            <a href="<?= base_url('producto') ?>" class="card-link">
-              <div class="card card-producto h-100">
-                <span class="badge badge-oferta">6 cuotas sin interés</span>
-                <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
-                <div class="card-body">
-                  <div class="card-text-container">
-                    <h5 class="card-title">Caña completa</h5>
-                    <p class="card-text">Material: fibra de vidrio</p>
-                  </div>
-                  <div class="card-action-container">
-                    <h4 class="text-success">$50.500</h4>
-                    <div class="btn-container">
-                      <button class="btn btn-productos">Ver más</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-producto h-100">
-              <span class="badge badge-oferta">3 cuotas sin interés</span>
-              <img src="assets/img/carpa2.png" class="card-img-top" alt="Caña" />
-              <div class="card-body">
-                <div class="card-text-container">
-                  <h5 class="card-title">Carpa completa</h5>
-                  <p class="card-text">Capacidad: 3 personas</p>
-                </div>
-                <div class="card-action-container">
-                  <h4 class="text-success">$71.500</h4>
-                  <div class="btn-container">
-                    <button class="btn btn-productos">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card card-producto h-100">
-              <span class="badge badge-oferta">3 cuotas sin interés</span>
-              <img src="assets/img/carpa2.png" class="card-img-top" alt="Caña" />
-              <div class="card-body">
-                <div class="card-text-container">
-                  <h5 class="card-title">Carpa completa</h5>
-                  <p class="card-text">Capacidad: 3 personas</p>
-                </div>
-                <div class="card-action-container">
-                  <h4 class="text-success">$71.500</h4>
-                  <div class="btn-container">
-                    <button class="btn btn-productos">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-producto h-100">
-              <span class="badge badge-oferta">6 cuotas sin interés</span>
-              <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
-              <div class="card-body">
-                <div class="card-text-container">
-                  <h5 class="card-title">Caña completa</h5>
-                  <p class="card-text">Material: fibra de vidrio</p>
-                </div>
-                <div class="card-action-container">
-                  <h4 class="text-success">$50.500</h4>
-                  <div class="btn-container">
-                    <button class="btn btn-productos">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-producto h-100">
-              <span class="badge badge-oferta">3 cuotas sin interés</span>
-              <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
-              <div class="card-body">
-                <div class="card-text-container">
-                  <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
-                  <p class="card-text">Resistencia: 150-300 gramos</p>
-                </div>
-                <div class="card-action-container">
-                  <h4 class="text-success">$37.500</h4>
-                  <div class="btn-container">
-                    <button class="btn btn-productos">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Aquí puedes añadir más productos destacados -->
-          <!-- Ejemplo de un nuevo conjunto de productos -->
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#featuredProductsCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#featuredProductsCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
+    <div class="col-md-6 col-lg-4">
+      <a href="<?= base_url('producto') ?>" class="card-link">
+        <div class="card card-producto h-100">
+          <span class="badge badge-oferta">6 cuotas sin interés</span>
+          <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
+          <div class="card-body">
+            <div class="card-text-container">
+              <h5 class="card-title">Caña completa</h5>
+              <p class="card-text">Material: fibra de vidrio</p>
+            </div>
+            <div class="card-action-container">
+              <h4 class="text-success">$50.500</h4>
+              <div class="btn-container">
+                <button class="btn btn-productos">Ver más</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card card-producto h-100">
+        <span class="badge badge-oferta">3 cuotas sin interés</span>
+        <img src="assets/img/carpa1.png" class="card-img-top" alt="Carpa" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Carpa completa</h5>
+            <p class="card-text">Capacidad: 2 personas</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-success">$71.500</h4>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card card-producto h-100">
+        <span class="badge badge-oferta">3 cuotas sin interés</span>
+        <img src="assets/img/carpa2.png" class="card-img-top" alt="Carpa" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Carpa completa + accesorios</h5>
+            <p class="card-text">Capacidad: 4 personas</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-success">$112.500</h4>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card card-producto h-100">
+        <span class="badge badge-oferta">6 cuotas sin interés</span>
+        <img src="assets/img/bota1.png" class="card-img-top" alt="Caña" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Bota de aventura</h5>
+            <p class="card-text">Material: cuero y goma</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-success">$78.500</h4>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card card-producto h-100">
+        <span class="badge badge-oferta">3 cuotas sin interés</span>
+        <img src="assets/img/mochila1.png" class="card-img-top" alt="Caña" />
+        <div class="card-body">
+          <div class="card-text-container">
+            <h5 class="card-title">Mochila de aventura</h5>
+            <p class="card-text">Capacidad: 70 litros</p>
+          </div>
+          <div class="card-action-container">
+            <h4 class="text-success">$125.500</h4>
+            <div class="btn-container">
+              <button class="btn btn-productos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
