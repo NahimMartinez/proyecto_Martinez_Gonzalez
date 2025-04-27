@@ -1,16 +1,32 @@
 /* assets/css/footer.css */
 /* Estilos para el footer del sitio */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0; 
+}
 
+main {
+  flex: 1; 
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; 
+  background-color: var(--azul-profundo); 
+}
 /* Estilos para los enlaces del footer */
 footer a {
-  text-decoration: none; /* Elimina el subrayado */
-  color: white; /* Color inicial */
-  transition: color 0.3s ease, transform 0.3s ease; /* Animación suave */
+  text-decoration: none; 
+  color: white; 
+  transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 footer a:hover {
-  color: var(--amarillo-terroso) !important; /* Cambia el color al pasar el mouse */
-  transform: scale(1.05) !important; /* Aumenta ligeramente el tamaño */
+  color: var(--amarillo-terroso) !important; 
+  transform: scale(1.05) !important; 
 }
 
 /* Íconos de redes sociales */

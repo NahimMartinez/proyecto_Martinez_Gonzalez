@@ -31,7 +31,7 @@
       <!-- Slide 1 (Pesca) -->
       <div class="carousel-item active">
         <img
-          src="<?= base_url('assets/img/pescador.png') ?>"
+          src="<?= base_url('assets/img/imagenes_pagina/pescador.png') ?>"
           class="d-block w-100"
           alt="Pesca"
         />
@@ -45,7 +45,7 @@
       <!-- Slide 2 (Camping) -->
       <div class="carousel-item">
         <img
-          src="<?= base_url('assets/img/carpa.png') ?>"
+          src="<?= base_url('assets/img/imagenes_pagina/carpa.png') ?>"
           class="d-block w-100"
           alt="Camping"
         />
@@ -54,14 +54,14 @@
           <p class="lead">
             Tiendas y sacos de dormir con 25% OFF
           </p>
-          <button class="btn btn-cta btn-lg">Ver Colección</button>
+          <button class="btn btn-cta btn-lg" onclick="location.href='#productos-destacados'">Ver Colección</button>
         </div>
       </div>
 
       <!-- Slide 3 (Naturaleza) -->
       <div class="carousel-item">
         <img
-          src="<?= base_url('assets/img/paisaje.png') ?>"
+          src="<?= base_url('assets/img/imagenes_pagina/paisaje.png') ?>"
           class="d-block w-100"
           alt="Naturaleza"
         />
@@ -70,7 +70,7 @@
           <p class="lead">
             Equipamiento especializado para la flora y fauna de Corrientes
           </p>
-          <button class="btn btn-cta btn-lg">Descubrir</button>
+          <button class="btn btn-cta btn-lg" onclick="location.href='#ofertas-relampago'">Descubrir</button>
         </div>
       </div>
     </div>
@@ -219,7 +219,7 @@
 </section>
 
 <!-- Primera sección con efecto paralaje -->
-<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/paralaje1.png') ?>');">
+<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/imagenes_pagina/paralaje1.png') ?>');">
   <div class="contenido-paralaje">
     <h3>Experiencias únicas en la naturaleza</h3>
     <p>Descubre nuestros productos de alta calidad para tus aventuras al aire libre</p>
@@ -324,7 +324,7 @@
 </section>
 
 <!-- Segunda sección con efecto paralaje -->
-<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/paralaje2.png') ?>');">
+<section class="seccion-paralaje" style="background-image: url('<?= base_url('assets/img/imagenes_pagina/paralaje2.png') ?>');">
   <div class="contenido-paralaje">
     <h3>Conecta con la naturaleza</h3>
     <p>El mejor equipamiento para tus expediciones de pesca y aventura</p>

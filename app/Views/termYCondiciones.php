@@ -33,7 +33,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta2"
                 >
-                    <i class="fas fa-check-circle me-2"></i>2. Uso del Sitio
+                    <i class="fas fa-user me-2"></i>2. Uso del Sitio
                 </button>
             </h3>
             <div id="pregunta2" class="accordion-collapse collapse shadow">
@@ -51,7 +51,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta3"
                 >
-                    <i class="fas fa-check-circle me-2"></i>3. Propiedad Intelectual
+                    <i class="fas fa-copyright me-2"></i>3. Propiedad Intelectual
                 </button>
             </h3>
             <div id="pregunta3" class="accordion-collapse collapse shadow">
@@ -69,7 +69,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta4"
                 >
-                    <i class="fas fa-check-circle me-2"></i>4. Limitación de Responsabilidad
+                    <i class="fas fa-exclamation-triangle me-2"></i>4. Limitación de Responsabilidad
                 </button>
             </h3>
             <div id="pregunta4" class="accordion-collapse collapse shadow">
@@ -87,7 +87,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta5"
                 >
-                    <i class="fas fa-check-circle me-2"></i>5. Modificaciones de los Términos
+                    <i class="fas fa-edit me-2"></i>5. Modificaciones de los Términos
                 </button>
             </h3>
             <div id="pregunta5" class="accordion-collapse collapse shadow">
@@ -105,7 +105,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta6"
                 >
-                    <i class="fas fa-check-circle me-2"></i>6. Ley Aplicable
+                    <i class="fas fa-gavel me-2"></i>6. Ley Aplicable
                 </button>
             </h3>
             <div id="pregunta6" class="accordion-collapse collapse shadow">
@@ -123,7 +123,7 @@
                     data-bs-toggle="collapse"
                     data-bs-target="#pregunta7"
                 >
-                    <i class="fas fa-envelope me-2"></i>7. Contacto
+                    <i class="fas fa-envelope me-2"></i>7.  Contacto
                 </button>
             </h3>
             <div id="pregunta7" class="accordion-collapse collapse shadow">

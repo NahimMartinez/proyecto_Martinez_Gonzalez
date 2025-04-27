@@ -5,7 +5,7 @@
             <div class="navbar-brand-wrapper">
               <div class="d-flex align-items-center flex-md-row flex-column">
                 <a class="navbar-brand d-flex align-items-center" href="<?= base_url('#') ?>">
-                  <img src="assets/img/logo.png" alt="Logo" width="50" height="50" />
+                  <img src="assets/img/imagenes_pagina/logo.png" alt="Logo" width="50" height="50" />
                   <span class="logo-text text-white ms-2 handwriting-font">Yaguareté Camp</span>
                 </a>
                 

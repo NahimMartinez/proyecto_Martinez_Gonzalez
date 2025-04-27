@@ -12,7 +12,7 @@
                     <p>Fundada por los hermanos Guaraní, descendientes de pescadores del Río Paraná, Yaguareté Camp nace de la pasión por preservar las tradiciones de pesca sustentable y el ecoturismo responsable. Nuestro nombre rinde homenaje al majestuoso yaguareté, símbolo de la fauna correntina.</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="assets/img/historia.png" class="img-fluid rounded shadow" alt="Nuestra Historia">
+                    <img src="assets/img/imagenes_pagina/historia.png" class="img-fluid rounded shadow" alt="Nuestra Historia">
                 </div>
             </div>
         </section>
@@ -21,7 +21,7 @@
         <section class="mb-5 py-4 bg-light">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="assets/img/raices.png" class="img-fluid rounded shadow" alt="Raíces Esterinas">
+                    <img src="assets/img/imagenes_pagina/raices.png" class="img-fluid rounded shadow" alt="Raíces Esterinas">
                 </div>
                 <div class="col-md-6">
                     <h2 class="display-4 mb-4 text-verde-selva">
@@ -117,7 +117,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-md-3 text-center">
                     <div class="team-card">
-                        <img src="assets/img/luciano.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <img src="assets/img/imagenes_pagina/luciano.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
                         <h5>Luciano Guaraní</h5>
                         <p class="text-muted">CEO & Co-Fundador</p>
                         <p class="small">Especialista en pesca con mosca</p>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <div class="team-card">
-                        <img src="assets/img/mariana.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
+                        <img src="assets/img/imagenes_pagina/mariana.png" class="rounded-circle mb-3 border border-4 border-verde-selva" width="150" alt="Fundador">
                         <h5>Mariana Guaraní</h5>
                         <p class="text-muted">Directora de Sustentabilidad</p>
                         <p class="small">Bióloga especializada en ecosistemas acuáticos</p>
