@@ -4,7 +4,7 @@
     <!-- Mapa -->
     <div class="col-md-6">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56638.39909330691!2d-58.879156978320346!3d-27.47237419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b6cb77957c3%3A0xc28183f39429d39c!2sCasinos%20del%20Litoral!5e0!3m2!1ses-419!2sar!4v1744171808524!5m2!1ses-419!2sar"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.940194118287!2d-58.80602293063319!3d-27.4711212033551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b6ca10e6e2b%3A0xa03f567172e58c10!2sCentenario%20Shopping!5e0!3m2!1ses!2sar!4v1745765173075!5m2!1ses!2sar"
         width="100%"
         height="450"
         style="border:0;"
