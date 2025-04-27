@@ -1,35 +1,66 @@
 <main class="container my-5">
     <h1 class="text-center mb-4 text-verde-selva titulo-handwriting">Comercialización</h1>
-    
-    <section class="mb-4">
-        <h2>Tipos de Entregas</h2>
-        <p>Ofrecemos diferentes tipos de entregas para adaptarnos a tus necesidades:</p>
-        <ul>
-            <li><strong>Entrega a Domicilio:</strong> Recibe tus productos en la puerta de tu casa.</li>
-            <li><strong>Retiro en Tienda:</strong> Puedes optar por recoger tu pedido en nuestra tienda física ubicada en el Centenario Shopping, Corrientes.</li>
-            <li><strong>Entrega Express:</strong> Para aquellos que necesitan sus productos de manera urgente, ofrecemos un servicio de entrega express en áreas seleccionadas.</li>
-        </ul>
-    </section>
 
     <section class="mb-4">
         <h2>Formas de Envío</h2>
         <p>Los envíos se realizan a través de las siguientes opciones:</p>
-        <ul>
-            <li><strong>Envío Standard:</strong> Entrega en un plazo de 3 a 5 días hábiles.</li>
-            <li><strong>Envío Rápido:</strong> Entrega en un plazo de 1 a 2 días hábiles.</li>
-            <li><strong>Envío Nacional:</strong> Consultar condiciones y tiempos de entrega para envíos fuera de Corrientes.</li>
-        </ul>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tipo de Envío</th>
+                    <th>Tiempo de Entrega</th>
+                    <th>Condiciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Envío Standard</strong></td>
+                    <td>3 a 5 días hábiles</td>
+                    <td>Disponible en todo Corrientes</td>
+                </tr>
+                <tr>
+                    <td><strong>Envío Rápido</strong></td>
+                    <td>1 a 2 días hábiles</td>
+                    <td>Solo en áreas seleccionadas</td>
+                </tr>
+                <tr>
+                    <td><strong>Envío Nacional</strong></td>
+                    <td>Consultar</td>
+                    <td>Fuera de Corrientes</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <section class="mb-4">
         <h2>Formas de Pago</h2>
         <p>Aceptamos las siguientes formas de pago para tu comodidad:</p>
-        <ul>
-            <li><strong>Tarjetas de Crédito:</strong> Visa, MasterCard.</li>
-            <li><strong>Transferencias Bancarias:</strong> Realiza tu pago directamente desde tu banco.</li>
-            <li><strong>Pago en Efectivo:</strong> Opción disponible solo para retiros en tienda.</li>
-            <li><strong>Mercado Pago:</strong> Aceptamos pagos a través de Mercado Pago para mayor comodidad.</li>
-        </ul>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Método de Pago</th>
+                    <th>Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Tarjetas de Crédito</strong></td>
+                    <td>Visa, MasterCard</td>
+                </tr>
+                <tr>
+                    <td><strong>Transferencias Bancarias</strong></td>
+                    <td>Realiza tu pago directamente desde tu banco</td>
+                </tr>
+                <tr>
+                    <td><strong>Pago en Efectivo</strong></td>
+                    <td>Opción disponible solo para retiros en tienda</td>
+                </tr>
+                <tr>
+                    <td><strong>Mercado Pago</strong></td>
+                    <td>Aceptamos pagos a través de Mercado Pago para mayor comodidad</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <section class="mb-4">
@@ -63,4 +94,17 @@
         </ul>
         <p>Para más información, no dudes en contactarnos.</p>
     </section>
+
+    <section class="mb-4">
+        <h2>Testimonios de Clientes</h2>
+        <blockquote class="blockquote">
+            <p>"El servicio de entrega express fue increíblemente rápido. ¡Muy recomendable!"</p>
+            <footer class="blockquote-footer">Juan Pérez</footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>"La atención al cliente y las opciones de pago son excelentes. ¡Volveré a comprar!"</p>
+            <footer class="blockquote-footer">María López</footer>
+        </blockquote>
+    </section>
+
 </main>

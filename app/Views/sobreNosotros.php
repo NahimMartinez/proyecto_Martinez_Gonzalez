@@ -8,13 +8,64 @@
                     <h2 class="display-4 mb-4 text-verde-selva">
                         <i class="fas fa-seedling me-3"></i>Nuestra Historia
                     </h2>
-                    <p class="lead">Nacidos entre los esteros y selvas de Corrientes en 2012</p>
+                    <p class="lead text-muted">Nacidos entre los esteros y selvas de Corrientes en 2012</p>
                     <p>Fundada por los hermanos Guaraní, descendientes de pescadores del Río Paraná, Yaguareté Camp nace de la pasión por preservar las tradiciones de pesca sustentable y el ecoturismo responsable. Nuestro nombre rinde homenaje al majestuoso yaguareté, símbolo de la fauna correntina.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/img/historia.png" class="img-fluid rounded shadow" alt="Nuestra Historia">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Raíces Esterinas -->
+        <section class="mb-5 py-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="assets/img/raices.png" class="img-fluid rounded shadow" alt="Raíces Esterinas">
+                </div>
+                <div class="col-md-6">
                     <h2 class="display-4 mb-4 text-verde-selva">
                         <i class="fas fa-water me-3"></i>Raíces Esterinas
                     </h2>
-                    <p>Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad. Creemos firmemente en la importancia de preservar los recursos naturales para las generaciones futuras.</p>
+                    <p class="text-muted">Desde nuestros inicios trabajamos con comunidades locales para promover el cuidado de los ecosistemas acuáticos y su biodiversidad. Creemos firmemente en la importancia de preservar los recursos naturales para las generaciones futuras.</p>
                     <p>En colaboración con organizaciones ambientales, hemos desarrollado programas educativos para enseñar prácticas de pesca responsable y la importancia de mantener los hábitats acuáticos saludables. Estas iniciativas no solo benefician a la fauna local, sino que también fortalecen las economías de las comunidades que dependen de estos recursos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Línea de Tiempo -->
+        <section class="mb-5">
+            <h3 class="text-center mb-5 text-verde-selva titulo-handwriting">
+                <i class="fas fa-history me-2"></i>Nuestra Historia en el Tiempo
+            </h3>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2012</h5>
+                        <p>Fundación de Yaguareté Camp por los hermanos Guaraní.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2015</h5>
+                        <p>Primer programa de educación ambiental en colaboración con comunidades locales.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2018</h5>
+                        <p>Apertura de nuestra tienda física en el Centenario Shopping.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2023</h5>
+                        <p>Reconocimiento como líderes en pesca sustentable en Corrientes.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,3 +134,4 @@
             </div>
         </section>
     </main>
+</body>

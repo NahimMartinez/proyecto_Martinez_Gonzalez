@@ -1,13 +1,16 @@
 /* assets/css/footer.css */
 /* Estilos para el footer del sitio */
 
+/* Estilos para los enlaces del footer */
 footer a {
-  transition: color 0.3s ease;
+  text-decoration: none; /* Elimina el subrayado */
+  color: white; /* Color inicial */
+  transition: color 0.3s ease, transform 0.3s ease; /* Animación suave */
 }
 
 footer a:hover {
-  color: var(--amarillo-terroso);
-  text-decoration: underline;
+  color: var(--amarillo-terroso) !important; /* Cambia el color al pasar el mouse */
+  transform: scale(1.05) !important; /* Aumenta ligeramente el tamaño */
 }
 
 /* Íconos de redes sociales */

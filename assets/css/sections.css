@@ -238,3 +238,54 @@ section.mb-5.py-4 {
   transform: none !important;
   background-color: transparent !important;
 }
+
+/* Contenedor de la línea de tiempo */
+.timeline-container {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid var(--verde-selva);
+}
+
+/* Elementos de la línea de tiempo */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Punto en la línea de tiempo */
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--verde-selva);
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px var(--verde-selva);
+}
+
+/* Contenido de cada elemento */
+.timeline-content {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--beige);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dentro de la línea de tiempo */
+.timeline-content h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--verde-selva);
+  font-weight: bold;
+}
+
+/* Texto dentro de la línea de tiempo */
+.timeline-content p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: var(--azul-profundo);
+}
