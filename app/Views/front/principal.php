@@ -332,7 +332,7 @@
   </div>
 </section>
 
-<?php include 'ubicacionHorarios.php'; ?>
+<?= view('front/layouts/ubicacionHorarios'); ?>
 
 <!-- Newsletter -->
 <section class="seccion-newsletter text-white">

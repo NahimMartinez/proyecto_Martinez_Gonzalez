@@ -1,0 +1,471 @@
+CRITICAL - 2025-04-28 22:12:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:12:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:14:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:14:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:14:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:16:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:16:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: sobreNosotros]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sobre_Nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: sobreNosotros]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sobre_Nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: sobreNosotros]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sobre_Nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: sobreNosotros]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sobre_Nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:20:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:22:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:22:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:22:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:22:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:22:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/layouts/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/layouts/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/layouts/header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:28:26 --> ErrorException: include(ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:28:27 --> ErrorException: include(ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:28:27 --> ErrorException: include(ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:28:28 --> ErrorException: include(ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:11 --> ErrorException: include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:13 --> ErrorException: include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:14 --> ErrorException: include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:14 --> ErrorException: include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:15 --> ErrorException: include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:22 --> ErrorException: include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:22 --> ErrorException: include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:29:23 --> ErrorException: include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layouts/ubicacionHorarios): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:30:39 --> ErrorException: include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:30:40 --> ErrorException: include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:30:41 --> ErrorException: include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:30:42 --> ErrorException: include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 335.
+ 1 APPPATH\Views\front\principal.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/layouts/ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php', 335)
+ 2 APPPATH\Views\front\principal.php(335): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:31:10 --> ErrorException: include(ubicacionHorarios.php): Failed to open stream: No such file or directory
+[Method: GET, Route: contacto]
+in APPPATH\Views\front\contacto.php on line 18.
+ 1 APPPATH\Views\front\contacto.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ubicacionHorarios.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\contacto.php', 18)
+ 2 APPPATH\Views\front\contacto.php(18): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_Martinez_Gonzalez\\app\\Views\\front\\contacto.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('front/contacto', [], true)
+ 6 APPPATH\Controllers\Home.php(43): view('front/contacto')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->a_contacto()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

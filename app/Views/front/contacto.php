@@ -15,5 +15,5 @@
             </p>
         </div>
     </section>
-    <?php include 'ubicacionHorarios.php'; ?>
+    <?= view('front/layouts/ubicacionHorarios'); ?>
 </main>
