@@ -1,6 +1,3 @@
-/* assets/css/sections.css */
-/* Estilos para secciones específicas del sitio */
-
 /* Estilos generales para secciones */
 body {
   overflow-y: scroll; /* Siempre muestra la barra de desplazamiento vertical */
@@ -294,10 +291,10 @@ section.mb-5.py-4 {
   color: var(--azul-profundo);
 }
 
-/* Elimina el color amarillo del botón del acordeón en estado focus o active */
+/* Elimina el color del botón del acordeón en estado focus o active */
 .accordion-button:focus,
 .accordion-button:not(.collapsed) {
-  box-shadow: none; /* Elimina el contorno amarillo */
-  background-color: var(--verde-selva); /* Opcional: Mantén el fondo transparente */
-  color: white; /* Mantén el color del texto original */
+  box-shadow: none; 
+  background-color: var(--verde-selva); 
+  color: white; 
 }

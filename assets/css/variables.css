@@ -1,6 +1,4 @@
-/* assets/css/variables.css */
 /* Variables globales para todo el sitio */
-
 :root {
   /* Colores */
   --verde-selva: #2A5C45;
@@ -20,8 +18,8 @@
   
   /* Tipografía - Nuevas selecciones de fuentes */
   --font-titulos: 'Oswald', 'Roboto Condensed', sans-serif; /* Fuente fuerte y clara para títulos */
-  --font-subtitulos: 'Fjalla One', 'Teko', sans-serif; /* Fuente audaz para subtítulos */
-  --font-cuerpo: 'Poppins', 'Open Sans', sans-serif; /* Fuente limpia para cuerpos de texto */
+  --font-subtitulos: 'Fjalla One', 'Teko', sans-serif; /* Fuente  para subtítulos */
+  --font-cuerpo: 'Poppins', 'Open Sans', sans-serif; /* Fuente para cuerpos de texto */
   --font-destacado: 'Barlow Semi Condensed', sans-serif; /* Para elementos destacados */
   
   /* Tamaños de fuente */

@@ -1,6 +1,4 @@
-/* assets/css/navbar.css */
 /* Estilos base para la barra de navegación */
-
 .navbar-custom {
   background: linear-gradient(to right, var(--verde-selva) 30%, var(--azul-profundo));
   border-bottom: 3px solid var(--amarillo-terroso);
@@ -11,7 +9,7 @@
 
 /* Espaciador para compensar el navbar fijo */
 .navbar-spacer {
-  height: 80px; /* Ajusta este valor según la altura de tu navbar */
+  height: 80px; 
 }
 
 /* Elementos de la barra de navegación */

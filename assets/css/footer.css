@@ -1,4 +1,3 @@
-/* assets/css/footer.css */
 /* Estilos para el footer del sitio */
 body {
   display: flex;
@@ -17,6 +16,7 @@ footer {
   width: 100%; 
   background-color: var(--azul-profundo); 
 }
+
 /* Estilos para los enlaces del footer */
 footer a {
   text-decoration: none; 

@@ -108,7 +108,7 @@
     <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/caña1.png" class="card-img-top" alt="Caña" />
+        <img src="assets/img/productos_ejemplo/caña1.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Caña Spinit Tempest 2.4 Mts</h5>
@@ -127,7 +127,7 @@
       <a href="<?= base_url('producto') ?>" class="card-link">
         <div class="card card-producto h-100">
           <span class="badge badge-oferta">6 cuotas sin interés</span>
-          <img src="assets/img/caña2.png" class="card-img-top" alt="Caña" />
+          <img src="assets/img/productos_ejemplo/caña2.png" class="card-img-top" alt="Caña" />
           <div class="card-body">
             <div class="card-text-container">
               <h5 class="card-title">Caña completa</h5>
@@ -146,7 +146,7 @@
     <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/carpa1.png" class="card-img-top" alt="Carpa" />
+        <img src="assets/img/productos_ejemplo/carpa1.png" class="card-img-top" alt="Carpa" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Carpa completa</h5>
@@ -164,7 +164,7 @@
     <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/carpa2.png" class="card-img-top" alt="Carpa" />
+        <img src="assets/img/productos_ejemplo/carpa2.png" class="card-img-top" alt="Carpa" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Carpa completa + accesorios</h5>
@@ -182,7 +182,7 @@
     <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">6 cuotas sin interés</span>
-        <img src="assets/img/bota1.png" class="card-img-top" alt="Caña" />
+        <img src="assets/img/productos_ejemplo/bota1.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Bota de aventura</h5>
@@ -200,7 +200,7 @@
     <div class="col-6 col-md-6 col-lg-4">
       <div class="card card-producto h-100">
         <span class="badge badge-oferta">3 cuotas sin interés</span>
-        <img src="assets/img/mochila1.png" class="card-img-top" alt="Caña" />
+        <img src="assets/img/productos_ejemplo/mochila1.png" class="card-img-top" alt="Caña" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Mochila de aventura</h5>
@@ -223,7 +223,7 @@
   <div class="contenido-paralaje">
     <h3>Experiencias únicas en la naturaleza</h3>
     <p>Descubre nuestros productos de alta calidad para tus aventuras al aire libre</p>
-    <a href="#" class="btn btn-transparente">Explorar equipamiento</a>
+    <a class="btn btn-transparente" onclick="location.href='#productos-destacados'">Explorar equipamiento</a>
   </div>
 </section>
 
@@ -241,7 +241,7 @@
         <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-1">
           Finaliza en 07:05:20
         </span>
-        <img src="assets/img/remera1.png" class="card-img-top" alt="Oferta" />
+        <img src="assets/img/productos_ejemplo/remera1.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Campera de pesca</h5>
@@ -262,7 +262,7 @@
         <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-2">
           Finaliza en 06:45:10
         </span>
-        <img src="assets/img/remera2.png" class="card-img-top" alt="Oferta" />
+        <img src="assets/img/productos_ejemplo/remera2.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Campera camuflada</h5>
@@ -283,7 +283,7 @@
         <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="timer-3">
           Finaliza en 05:30:00
         </span>
-        <img src="assets/img/carpa3.png" class="card-img-top" alt="Oferta" />
+        <img src="assets/img/productos_ejemplo/carpa3.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Carpa completa</h5>
@@ -304,7 +304,7 @@
         <span class="badge bg-danger position-absolute top-0 end-0 m-2 " id="timer-4">
           Finaliza en 04:15:50
         </span>
-        <img src="assets/img/caja1.png" class="card-img-top" alt="Oferta" />
+        <img src="assets/img/productos_ejemplo/caja1.png" class="card-img-top" alt="Oferta" />
         <div class="card-body">
           <div class="card-text-container">
             <h5 class="card-title">Caja de pesca Vintage</h5>
@@ -328,7 +328,7 @@
   <div class="contenido-paralaje">
     <h3>Conecta con la naturaleza</h3>
     <p>El mejor equipamiento para tus expediciones de pesca y aventura</p>
-    <a href="#" class="btn btn-transparente">Ver colección</a>
+    <a onclick="location.href='#productos-destacados'" class="btn btn-transparente">Ver colección</a>
   </div>
 </section>
 

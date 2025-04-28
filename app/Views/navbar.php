@@ -18,7 +18,7 @@
               </div>
             </div>
             
-            <!-- Botón hamburguesa siempre a la derecha -->
+            <!-- Botón hamburguesa -->
             <button
               class="navbar-toggler"
               type="button"
@@ -102,7 +102,7 @@
       </nav>
       <!-- Espaciador para compensar el navbar fijo -->
       <div class="navbar-spacer"></div>
-      </header>
+</header>
 
 <!-- Modal de Registro - Movido fuera del navbar -->
 <div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
@@ -171,7 +171,7 @@
     </div>
 </div>
 
-<!-- Modal de Iniciar Sesión - Movido fuera del navbar -->
+<!-- Modal de Iniciar Sesión -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">

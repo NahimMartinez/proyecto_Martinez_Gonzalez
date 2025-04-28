@@ -43,7 +43,7 @@
             </div>
           </div>
         </div>
-        <!-- Añadir más productos relacionados si es necesario -->
+        <!-- Añadir más productos -->
       </div>
     </div>
   </div> 

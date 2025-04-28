@@ -1,6 +1,4 @@
-/* assets/css/carousel.css */
 /* Estilos para todos los carruseles del sitio */
-
 /* Configuración base para carruseles */
 #mainCarousel, 
 #mainCarousel .carousel-inner, 
@@ -18,7 +16,7 @@ section.carousel-section {
 
 .carousel-inner {
   overflow: visible !important; /* Evita que el contenido desborde */
-  height: auto !important; /* Permite que la altura se ajuste automáticamente */
+  height: auto !important; /*la altura se ajusta automáticamente */
 }
 
 #productos-destacados {
@@ -32,8 +30,6 @@ section.carousel-section {
   height: auto;
   object-fit: cover; /* Asegura que las imágenes se ajusten al contenedor */
 }
-
-
 
 .carousel-item.active,
 .carousel-item-start,
