@@ -3,7 +3,7 @@
     <div class="row">
       <!-- Imagen del producto -->
       <div class="col-md-6">
-        <img src="assets/img/caña2.png" class="img-fluid" alt="Producto">
+        <img src="assets/img/productos_ejemplo/caña2.png" class="img-fluid" alt="Producto">
       </div>
       <!-- Detalles del producto -->
       <div class="col-md-6">
