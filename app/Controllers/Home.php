@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public function index(): void
     {
         echo view("front/layouts/header");
         echo view("front/layouts/navbar");
@@ -12,7 +12,7 @@ class Home extends BaseController
         echo view("front/layouts/footer");
     }
 
-    public function sobre_Nosotros()
+    public function sobre_Nosotros(): void
     {
         echo view("front/layouts/header");
         echo view("front/layouts/navbar");
