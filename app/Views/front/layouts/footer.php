@@ -106,3 +106,5 @@
     <script src="assets/js/carouselError.js"></script>
     <script src="assets/js/timer.js"></script>
 </footer>
+</body>
+</html>
