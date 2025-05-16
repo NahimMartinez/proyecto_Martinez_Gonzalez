@@ -106,12 +106,23 @@
 
 <!-- Modal de Registro - Movido fuera del navbar -->
 <div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+  <!--usamos el servicio de validación de codeigniter Services:: validation()-->
+      <?php $validation = \Config\Services::validation(); ?>
+        <form method="post" action="<?php echo base_url('/enviar-form') ?>">
+        <?=csrf_field(); ?> <!-- genera un campo oculto o token de seguridad-->
+        <?php if(!empty (session()->getFlashdata('fail'))):?>
+        <div class="alert alert-danger"><?=session()->getFlashdata('fail'); ?></div>
+        <?php endif?>
+        <?php if(!empty (session()->getFlashdata('success'))):?>
+        <div class="alert alert-danger"><?=session()->getFlashdata('success'); ?></div>
+      <?php endif?>
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header bg-verde-selva text-white">
                 <h5 class="modal-title" id="registroModalLabel">Crear una cuenta</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
+            <!--PONER LOS MISMO CAMPOS QUE BASE DE DATOS-->
             <div class="modal-body">
                 <form onsubmit="return validarContrasenas()">
                   <div class="mb-3">
