@@ -11,11 +11,11 @@
     public function formValidation() {
 
     $input = $this->validate([
-        'nombre' => 'required min_length[3]',
+        'nombre' => 'required|min_length[3]',
         'apellido' => 'required|min_length[3]|max_length[25]', 
-        'email' => 'required min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
-        'usuario' => 'required min_length[3]',
-        'pass' => 'required min_length[3]|max_length[10]'
+        'email' => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
+        'usuario' => 'required|min_length[3]|is_unique[usuarios.usuario]',
+        'pass' => 'required|min_length[3]|max_length[10]'
         ],
     );
     $formModel = new Usuarios_model();

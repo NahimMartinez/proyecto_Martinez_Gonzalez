@@ -124,16 +124,44 @@
             </div>
             <!--PONER LOS MISMO CAMPOS QUE BASE DE DATOS-->
             <div class="modal-body">
-                <form onsubmit="return validarContrasenas()">
+                <form onsubmit="return validarContrasenas()" method="post" action="<?php echo base_url('/enviar-form') ?>">
+                  <?=csrf_field(); ?>
                   <div class="mb-3">
                       <label for="nombre" class="form-label">Nombre completo</label>
                       <input
                           type="text"
                           class="form-control"
                           id="nombre"
+                          name="nombre"
                           placeholder="Ingresa tu nombre completo"
                           pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
                           title="El nombre no puede contener números ni caracteres especiales"
+                          required
+                      >
+                  </div>
+                  <div class="mb-3">
+                      <label for="apellido" class="form-label">Apellido</label>
+                      <input
+                          type="text"
+                          class="form-control"
+                          id="apellido"
+                          name="apellido"
+                          placeholder="Ingresa tu apellido"
+                          pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+                          title="El apellido no puede contener números ni caracteres especiales"
+                          required
+                      >
+                  </div>
+                  <div class="mb-3">
+                      <label for="usuario" class="form-label">Usuario</label>
+                      <input
+                          type="text"
+                          class="form-control"
+                          id="usuario"
+                          name="usuario"
+                          placeholder="Elige un nombre de usuario"
+                          pattern="[A-Za-z0-9_]{3,}"
+                          title="El usuario debe tener al menos 3 caracteres y solo puede contener letras, números y guiones bajos"
                           required
                       >
                   </div>
@@ -143,6 +171,7 @@
                           type="email"
                           class="form-control"
                           id="email"
+                          name="email"
                           placeholder="Ingresa tu correo electrónico"
                           pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" 
                           title="Por favor, ingresa un correo válido"
@@ -155,6 +184,7 @@
                           type="password"
                           class="form-control"
                           id="password"
+                          name="pass"
                           placeholder="Crea una contraseña"
                           pattern="(?=.*\d)[A-Za-z\d]{8,}"
                           title="La contraseña debe tener al menos 8 caracteres y contener al menos un número"
